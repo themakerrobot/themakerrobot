@@ -1,8 +1,13 @@
-This is a repository for the educational robot, pibo.
+>This is a repository for the educational robot, pibo.
+>
+>If you have any questions, contact to "yeonah@circul.us"   
 
-If you have any questions, contact to "yeonah@circul.us"   
-
-[Homepage](https://themaker.circul.us) [Openpibo-Guide](https://themakerrobot.github.io/x-openpibo/build/html/index.html)
+* link
+  + [Homepage](https://themaker.circul.us) 
+  + [Openpibo-Guide](https://themakerrobot.github.io/x-openpibo/build/html/index.html)
+  + OS
+    - Stable([EOS_PIBO_210917_V1](https://drive.google.com/file/d/1IewZY1GY3rrg4O8pWO-VTMWKx-NWa1WQ/view?usp=sharing))
+    - Old([EOS_PIBO_210917_OLD](https://drive.google.com/file/d/1NoD_R2mcnc2nErGtSmuUe83CrJ3pOnbU/view?usp=sharing))
 
 <pre>
 * Notice
