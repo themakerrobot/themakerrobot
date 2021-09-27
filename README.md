@@ -3,11 +3,11 @@
 >If you have any questions, contact to "yeonah@circul.us"   
 
 * link
-  + [Homepage](https://themaker.circul.us) 
-  + [Openpibo-Guide](https://themakerrobot.github.io/x-openpibo/build/html/index.html)
+  + [Homepage](https://themaker.circul.us{: target="_blank"})
+  + [Openpibo-Guide](https://themakerrobot.github.io/x-openpibo/build/html/index.html){: target="_blank"}
   + OS
-    - Stable([EOS_PIBO_210927_V1](https://drive.google.com/file/d/1Y43w3Fhkt03qdLUDVj7u1edxhlSaFXjE/view?usp=sharing))
-    - Old([EOS_PIBO_210917_OLD](https://drive.google.com/file/d/1NoD_R2mcnc2nErGtSmuUe83CrJ3pOnbU/view?usp=sharing))
+    - Stable([EOS_PIBO_210927_V1](https://drive.google.com/file/d/1Y43w3Fhkt03qdLUDVj7u1edxhlSaFXjE/view?usp=sharing){: target="_blank"})
+    - Old([EOS_PIBO_210917_OLD](https://drive.google.com/file/d/1NoD_R2mcnc2nErGtSmuUe83CrJ3pOnbU/view?usp=sharing){: target="_blank"})
 
 <pre>
 * Notice
