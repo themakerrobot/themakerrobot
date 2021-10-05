@@ -4,7 +4,7 @@
 
 * link
   + [Homepage](https://themaker.circul.us)
-  + [Openpibo-Guide](https://themakerrobot.github.io/x-openpibo/build/html/index.html) (Stable OS 
+  + [Openpibo-Guide](https://themakerrobot.github.io/x-openpibo/build/html/index.html) (Stable OS기준)
   + OS
     - Stable([EOS_PIBO_210927_V1](https://drive.google.com/file/d/1Y43w3Fhkt03qdLUDVj7u1edxhlSaFXjE/view?usp=sharing))
     - Old([EOS_PIBO_210917_OLD](https://drive.google.com/file/d/1NoD_R2mcnc2nErGtSmuUe83CrJ3pOnbU/view?usp=sharing))
