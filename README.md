@@ -22,8 +22,7 @@
      - openpibo-tool --> openpibo-tools
      - openpibo-example --> openpibo-examples
  - Issues
-   + 현재 openpibo 패키지 자체 크기가 커서, 패키지 업그레이드를 위한 install이나 clone에 시간이 많이 걸릴 것으로 예상됩니다. 추후 분할할 예정입니다.
-
+   + 현재 openpibo 패키지 자체 크기가 커서, 패키지 업그레이드를 위한 install이나 clone에 시간이 많이 걸릴 것으로 예상됩니다.
 </code>
 </pre>
 ![bg](bg.png)
