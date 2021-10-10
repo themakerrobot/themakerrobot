@@ -13,7 +13,7 @@ else
 fi
 
 echo "Update openpibo-python"
-#pip3 install --upgrade openpibo-python -y
+pip3 install --upgrade openpibo-python -y
 
 MODEL=$(tr -d '\0' </proc/device-tree/model)
 echo $MODEL "detected"
