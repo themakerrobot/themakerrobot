@@ -29,10 +29,11 @@ else
   echo "Update openpibo-python package"
   MODEL=$(tr -d '\0' </proc/device-tree/model)
   echo $MODEL "detected"
-  if [[ $MODEL == *"Pi 3"* ]];then
-    cat > /etc/modprobe.d/snd-i2smic-rpi.conf<<EOF
-  options snd-i2smic-rpi rpi_platform_generation=1
-  EOF
+if [[ $MODEL == *"Pi 3"* ]];then
+cat > /etc/modprobe.d/snd-i2smic-rpi.conf<<EOF
+options snd-i2smic-rpi rpi_platform_generation=1
+EOF
+fi
 fi
 
 echo -n "REBOOT NOW? [y/N] "
