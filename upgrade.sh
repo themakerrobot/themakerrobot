@@ -6,7 +6,7 @@ echo "OS update" $VERSION
 echo -n "Remove config.js? [y/N] "
 read
 if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then
-  echo "not Removed"
+  echo "not Removed config.json"
 else
   echo "Removed config.json"
   rm /home/pi/config.json
