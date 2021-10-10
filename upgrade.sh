@@ -11,6 +11,8 @@ else
   echo "Removed config.json"
   rm /home/pi/config.json
 fi
+
+echo "Update openpibo-python"
 #pip3 install --upgrade openpibo-python -y
 
 MODEL=$(tr -d '\0' </proc/device-tree/model)
