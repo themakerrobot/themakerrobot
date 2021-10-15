@@ -17,8 +17,8 @@ make clean
 make
 make install
 
-cd ~/
-rm Raspberry-Pi-Installer-Scripts -rf
+cd /home/pi
+rm -rf Raspberry-Pi-Installer-Scripts
 
   cat > /etc/modules-load.d/snd-i2smic-rpi.conf<<EOF
 snd-i2smic-rpi
