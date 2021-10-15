@@ -17,16 +17,16 @@ make clean
 make
 make install
 
-echo "Done..."
-cd ../../
-rm -rf Raspberry-Pi-Installer-Scripts
-
   cat > /etc/modules-load.d/snd-i2smic-rpi.conf<<EOF
 snd-i2smic-rpi
 EOF
   cat > /etc/modprobe.d/snd-i2smic-rpi.conf<<EOF
 options snd-i2smic-rpi rpi_platform_generation=$PIMODEL_SELECT
 EOF
+
+echo "Done..."
+cd ../../
+rm -rf Raspberry-Pi-Installer-Scripts
 
 echo -n "REBOOT NOW? [y/N] "
 read
