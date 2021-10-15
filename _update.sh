@@ -9,6 +9,17 @@ if [[ $MODEL == *"Pi 4"* ]];then
   PIMODEL_SELECT=2
 fi
 
+git clone https://github.com/adafruit/Raspberry-Pi-Installer-Scripts.git
+
+# Build and install the module
+cd Raspberry-Pi-Installer-Scripts/i2s_mic_module
+make clean
+make
+make install
+
+cd ~/
+rm Raspberry-Pi-Installer-Scripts -rf
+
   cat > /etc/modules-load.d/snd-i2smic-rpi.conf<<EOF
 snd-i2smic-rpi
 EOF
