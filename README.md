@@ -4,7 +4,7 @@
 
 + Openpibo Guide: [link](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
 + Operating System
-  - Stable OS([link](https://drive.google.com/file/d/1Y43w3Fhkt03qdLUDVj7u1edxhlSaFXjE/view?usp=sharing))
+  - Stable OS([link](https://drive.google.com/file/d/1mebCvLaBc3FwfvF8RRC3GkwgkkkcNQ2E/view?usp=sharing))
   - Old OS([link](https://drive.google.com/file/d/1NoD_R2mcnc2nErGtSmuUe83CrJ3pOnbU/view?usp=sharing))
 
 <pre>
