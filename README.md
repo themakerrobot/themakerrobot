@@ -10,7 +10,8 @@
 <pre>
 * Notice
 <code>
- - Environment: Raspberrypi4 / Stable OS(Raspbian)
+ - Device: Raspberrypi(3B+, 4B) - 3B+ needs sw update.
+ - Operating System: Stable OS(Raspbian)
  - Usage: $ sudo pip3 install openpibo-python
  - Deprecate repo: openpibo/openpibo-data/openpibo-tool/openpibo-example
 </code>
