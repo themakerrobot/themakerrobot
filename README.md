@@ -4,7 +4,7 @@
 
 + Openpibo Guide: [link](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
 + Operating System
-  - 2021/12/06 OS([link](https://drive.google.com/file/d/1VTK3vzJxusf2rFq5ArTU9avJ1c7fVISS/view?usp=sharing)) - 211206v1
+  - 2021/12/06 OS([link](https://drive.google.com/file/d/1XarHl8_FOfMXmhBxYRD89GFfkiBKinQv/view?usp=sharing)) - 211206v1
   - 2021/10/24 OS([link](https://drive.google.com/file/d/1L-yJbhNXjiO3cgrtzdPaQfmRqmQcHJoC/view?usp=sharing)) - 211024v1
 + ReleaseNotes
   - [link](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes.md)
