@@ -5,6 +5,9 @@
 + Openpibo Guide: [link](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
 + Operating System
   - 2021/12/06 OS([link](https://drive.google.com/file/d/1c7yACdRlR7aM87xkV0wY1ElHurEeKfhW/view?usp=sharing)) - 211206v2
+    <pre>
+    중요 업데이트! > 로그인 passwd가 기존 raspberry 에서 pibo0314로 변경되었습니다. 참고바랍니다.
+    </pre>
 + ReleaseNotes
   - [link](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes.md)
 
