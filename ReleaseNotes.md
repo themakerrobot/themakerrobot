@@ -5,7 +5,7 @@
  * 2021 년 12 월 06 일
 <code>
  + 수정 내용
-   - 버그 수정
+   - 버그 수정 및 openpibo-python 파생 패키지 
    - hostname: themaker로 변경
    - passwd: pibo0314로 변경
    - Raspberrypi OS 변경 (2021/12/02자 Buster Stable 버전)
