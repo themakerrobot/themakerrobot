@@ -1,3 +1,6 @@
+![bg](bg.png)
+
+
 >This is a repository for the educational robot, pibo.
 >
 >If you have any questions, contact to "yeonah@circul.us" / [[themaker]](https://themaker.circul.us)
@@ -20,4 +23,3 @@
  - Usage: $ sudo pip3 install openpibo-python
 </code>
 </pre>
-![bg](bg.png)
