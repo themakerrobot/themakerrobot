@@ -11,6 +11,11 @@
     <pre>
     중요 업데이트! > 로그인 passwd가 기존 raspberry 에서 pibo0314로 변경되었습니다. 참고바랍니다.
     </pre>
+  - 2021/12/15 OS([link](https://drive.google.com/file/d/1S0MXuIjSwGq3Yd-CS7sqVXkbOKWCgxDl/view?usp=sharing)) - 211215v1
+    <pre>
+    TEST 버전
+    </pre>   
+    
 + ReleaseNotes
   - [link](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes.md)
 
