@@ -6,7 +6,7 @@
 > 곧, THE MAKER 교육 플랫폼이 오픈될 예정입니다. [[themaker]](https://themaker.circul.us) 
 > 교육에 대한 문의는 "yeonah@circul.us"로 보내주시면 감사하겠습니다.
 
-+ Openpibo 라이브러리에 대한 가이드: [link](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
++ openpibo 라이브러리에 대한 가이드: [link](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
 + 교육용 파이보 운영체제(교육용 파이보를 위한 운영체제이며, 다른 용도로는 사용이 어려울 수 있습니다.)
   - 운영체제 배포
     + 2021/12/06 OS([link](https://drive.google.com/file/d/1c7yACdRlR7aM87xkV0wY1ElHurEeKfhW/view?usp=sharing)) - 211206v2
