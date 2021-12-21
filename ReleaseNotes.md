@@ -1,7 +1,16 @@
 ## Release Note
 
 <pre>
-* 버전명: EOS_PIBO_211206_V1
+* 공지사항
+<code>
+ - 호환기기 : Raspberrypi(3B+, 4B)
+   + 3B+: SW 업데이트가 필요합니다. (cd ~;sudo ./update.sh)
+ - 운영체제: Stable OS(Raspbian)
+</code>
+</pre>
+
+<pre>
+ * 버전명: EOS_PIBO_211206_V1
  * 2021 년 12 월 06 일
 <code>
  + 수정 내용
@@ -14,7 +23,7 @@
 </pre>
 
 <pre>
- * 버전명: EOS_PIBO_20211024_V1
+ * 버전명: EOS_PIBO_20211024_V1 (Not support)
  * 2021 년 10 월 24 일
 <code>
  + 수정 내용
@@ -25,8 +34,7 @@
 </pre>
 
 <pre>
-# Not support
- * 버전명: EOS_PIBO_20210917_V1
+ * 버전명: EOS_PIBO_20210917_V1 (Not support)
  * 2021 년 09 월 17 일
 <code>
  + 수정 내용
