@@ -21,7 +21,7 @@
 + 교육용 파이보 운영체제(교육용 파이보를 위한 운영체제이며, 다른 용도로는 사용이 어려울 수 있습니다.)
   - 운영체제 배포
     + 2021/12/06 OS([다운로드](https://drive.google.com/file/d/1c7yACdRlR7aM87xkV0wY1ElHurEeKfhW/view?usp=sharing)) - 211206v2 (Stable)
-    + 2021/12/15 OS([다운로드](https://drive.google.com/file/d/1S0MXuIjSwGq3Yd-CS7sqVXkbOKWCgxDl/view?usp=sharing)) - 211215v1 (Test)
+    + 2022/01/04 OS([다운로드](https://drive.google.com/file/d/1LCqkuV6LhHzjU9m4si9g6mFHNcIN-7y4/view?usp=sharing)) - 210104v1 (Test)
     
   - [릴리즈노트 바로가기](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes.md)
 
