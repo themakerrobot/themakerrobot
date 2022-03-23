@@ -1,4 +1,4 @@
-![bg](bg.png)
+![bg](data/bg.png)
 
 
 > 안녕하세요. THE MAKER입니다. 
