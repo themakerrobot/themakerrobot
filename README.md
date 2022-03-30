@@ -23,7 +23,7 @@
     + 2021/12/06 OS([다운로드](https://drive.google.com/file/d/1c7yACdRlR7aM87xkV0wY1ElHurEeKfhW/view?usp=sharing)) - 211206v2 (past version - Raspberrypi 4B 기준) [ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/211206v2.md)
     + 2021/12/06 OS([다운로드](https://drive.google.com/file/d/1ARyBgFimZLiTkgIRanYnGlkFx8ZgEwgs/view?usp=sharing)) - 211206v2 (past version - Raspberrypi 3B+ 기준)
     + 2022/02/09 OS([다운로드](https://drive.google.com/file/d/1W_K35gMc0j8LV2mGQv9gZ3BPl9QVI5hl/view?usp=sharing)) - 220209v2 (latest version - Raspberrypi 4B 기준) [ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/220209v2.md)
-    + 2022/03/30 OS([다운로드](https://drive.google.com/file/d/1R4DD9jtzgqrjYR7JRbWfHKdNvD4qaFOe/view?usp=sharing)) - 220330v1 (test version - Raspberrypi 4B 기준)[ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/220330v1.md)
+    + 2022/03/30 OS([다운로드](https://drive.google.com/file/d/1R4DD9jtzgqrjYR7JRbWfHKdNvD4qaFOe/view?usp=sharing)) - 220330v1 (test version - Raspberrypi 4B 기준) [ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/220330v1.md)
 
 
 > THE MAKER 교육 플랫폼이 오픈될 예정입니다. [[themaker]](https://themaker.circul.us)
