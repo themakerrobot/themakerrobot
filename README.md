@@ -20,7 +20,7 @@
 
 + 교육용 파이보 운영체제(교육용 파이보를 위한 운영체제이며, 다른 용도로는 사용이 어려울 수 있습니다.)
   - 운영체제 배포
-    + 2022/04/11 OS([다운로드](https://drive.google.com/file/d/1U2-Vo8R-nPEtiLJVJMJz1TAe1aK2XXKb/view?usp=sharing)) - 220411v1 (test version - Raspberrypi 4B 기준) [ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022-04.md)
+    + 2022/04/22 OS([다운로드](https://drive.google.com/file/d/1WS82Lgazy3sy5MnwIc5JjpxnBetzdFNt/view?usp=sharing)) - 220422v1 (test version - Raspberrypi 4B 기준) [ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022-04.md)
 
 > THE MAKER 교육 플랫폼이 오픈될 예정입니다. [[themaker]](https://themaker.circul.us)
 > 
