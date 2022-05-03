@@ -22,6 +22,6 @@
     + EOS_PIBO_220422_V1([다운로드](https://drive.google.com/file/d/1WS82Lgazy3sy5MnwIc5JjpxnBetzdFNt/view?usp=sharing)) - (stable - only Raspberrypi 4B) 
     + EOS_PIBO_220503_V1([다운로드](https://drive.google.com/file/d/1BTHL7_VAnR4TMq0-bX6Pr9VLUN_auu5S/view?usp=sharing)) - (latest - only Raspberrypi 4B)
     + EOS_PIBO_3B_220503_V1([다운로드](https://drive.google.com/file/d/133qKrEjRGgRCNK_cLK9eqleUXesuguNx/view?usp=sharing)) - (latest - only Raspberrypi 3B)
-    + [통합 ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022.md)
+  - [통합 ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022.md)
 
 > 교육에 대한 문의는 "yeonah@circul.us"로 보내주시면 감사하겠습니다.
