@@ -15,7 +15,7 @@
   - openpibo-files(테스트용 파일)
 더 자세한 내용은 아래 가이드를 참고해주세요.
 </pre>
-[가이드 바로가기](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
+가이드 [바로가기](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
 
 + 교육용 파이보 운영체제(교육용 파이보를 위한 운영체제이며, 다른 용도로는 사용이 어려울 수 있습니다.)
   - 운영체제 배포 (Raspberrypi 버전 주의하세요)
