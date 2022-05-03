@@ -7,7 +7,6 @@
 > 
 > 대표적으로 openpibo 프로젝트가 있습니다.
 
-
 <pre>
 + openpibo는 파이보 활용 교육을 위해 시작한 프로젝트이며,
   - openpibo-python(python 패키지)
@@ -20,8 +19,8 @@
 
 + 교육용 파이보 운영체제(교육용 파이보를 위한 운영체제이며, 다른 용도로는 사용이 어려울 수 있습니다.)
   - 운영체제 배포
-    + 2022/04/22 OS([다운로드](https://drive.google.com/file/d/1WS82Lgazy3sy5MnwIc5JjpxnBetzdFNt/view?usp=sharing)) - 220422v1 (test version - Raspberrypi 4B 기준) [ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022-04.md)
+    + 2022/04/22 OS([다운로드](https://drive.google.com/file/d/1WS82Lgazy3sy5MnwIc5JjpxnBetzdFNt/view?usp=sharing)) - 220422v1 (stable version - Raspberrypi 4B 기준) 
+    + 2022/05/03 OS([다운로드](https://drive.google.com/file/d/1BTHL7_VAnR4TMq0-bX6Pr9VLUN_auu5S/view?usp=sharing)) - 220503v1 (latest version - Raspberrypi 4B 기준)
+    + [통합 ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022.md)
 
-> THE MAKER 교육 플랫폼이 오픈될 예정입니다. [[themaker]](https://themaker.circul.us)
-> 
 > 교육에 대한 문의는 "yeonah@circul.us"로 보내주시면 감사하겠습니다.
