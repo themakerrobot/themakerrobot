@@ -4,7 +4,7 @@
 >
 > THE MAKER is a brand specializing in IT education using robots created by robot startup Circulus.
 >
-> We made the openpibo project.
+> We made the "openpibo project" to make the robot easier to use.
 
 <pre>
 + openpibo
