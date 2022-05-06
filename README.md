@@ -17,7 +17,7 @@
 
 + Software for Openpibo
 <pre>
-Download and install Operating System file.
+Download and install Operating System file to use openpibo.
 </pre>
   - Openpibo OS (Only user for openpibo)
     + EOS_PIBO_220422_V1([Downloaded for Raspberrypi4B](https://drive.google.com/file/d/1WS82Lgazy3sy5MnwIc5JjpxnBetzdFNt/view?usp=sharing)) - (stable - only Raspberrypi 4B) 
