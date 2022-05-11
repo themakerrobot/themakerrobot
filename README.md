@@ -1,23 +1,20 @@
 ![bg](data/bg.png)
 
-> Hello. This is THE MAKER.
->
-> THE MAKER is a brand specializing in IT education using robots created by robot startup Circulus.
->
-> We made the "openpibo project" to make the robot easier to use.
+themakerrobot
+=============
+```
+Hello. This is THE MAKER.
 
-<pre>
-+ openpibo
-  - openpibo-python(Python library)
-  - openpibo-tools(Tools for openpibo)
-  - openpibo-examples(python example using openpibo-python)
-  - openpibo-files(Test file)
-</pre>
+THE MAKER is a brand specializing in IT education using robots created by robot startup Circulus.
 
+We made the "openpibo project" to make the robot easier to use.
+```
 + Software for Openpibo
-<pre>
-Download and install Operating System file to use openpibo.
-</pre>
+  - openpibo repository
+    + openpibo-python(Python library)
+    + openpibo-tools(Tools for openpibo)
+    + openpibo-examples(python example using openpibo-python)
+    + openpibo-files(Test file)
   - Openpibo OS (Only user for openpibo)
     + EOS_PIBO_220422_V1([Downloaded for Raspberrypi4B](https://drive.google.com/file/d/1WS82Lgazy3sy5MnwIc5JjpxnBetzdFNt/view?usp=sharing)) - (stable - only Raspberrypi 4B) 
     + EOS_PIBO_220503_V1([Downloaded for Raspberrypi4B](https://drive.google.com/file/d/1BTHL7_VAnR4TMq0-bX6Pr9VLUN_auu5S/view?usp=sharing)) - (latest - only Raspberrypi 4B)
