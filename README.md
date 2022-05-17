@@ -18,7 +18,6 @@ We made the "openpibo project" to make the robot easier to use.
   - Openpibo OS (Only user for openpibo)
     + EOS_PIBO_220503_V1([Downloaded for Raspberrypi4B](https://drive.google.com/file/d/1BTHL7_VAnR4TMq0-bX6Pr9VLUN_auu5S/view?usp=sharing)) - (latest - only Raspberrypi 4B)
     + EOS_PIBO_3B_220503_V1([Downloaded for Raspberrypi3B](https://drive.google.com/file/d/133qKrEjRGgRCNK_cLK9eqleUXesuguNx/view?usp=sharing)) - (latest - only Raspberrypi 3B)
-    + EOS_PIBO_220517_V1([Downloaded for Raspberrypi4B](--)) - (Test - only Raspberrypi 4B) 
   - [ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022.md)
   - [Guide for openpibo](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
 > Education Inquiry: "yeonah@circul.us"
