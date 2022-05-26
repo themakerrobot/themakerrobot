@@ -10,14 +10,10 @@
 # bits.
 #
 # By default this script does nothing.
-# 20220517
-sudo python3 /boot/booting.py
-
+sudo /home/pi/openpibo-tools/system/init.sh
 # Print the IP address
 _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
-
-sudo /home/pi/openpibo-tools/openpibo-tools-start
 exit 0
