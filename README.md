@@ -22,3 +22,5 @@ We made the "openpibo project" to make the robot easier to use.
   - [ReleaseNote](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022.md)
   - [Guide for openpibo](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
 > Education Inquiry: "yeonah@circul.us"
+
+[.](https://circulusworkspace-my.sharepoint.com/:u:/g/personal/leeyunjai_circul_us1/EWDUeekQ8xdPntZu4I_vmq8BDdwGAYzYX6qInvhdcmb2hw?e=d4faMv)
