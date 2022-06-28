@@ -25,7 +25,7 @@ Openpibo는 교육용 로봇 파이보를 쉽게 사용할 수 있도록 제작�
       - EOS_PIBO_3B_220701_V1([Download](https://circulusworkspace-my.sharepoint.com/:u:/g/personal/leeyunjai_circul_us1/EUcGiMOPPIVHjwKjSMbnnRcBC3A4P4-GwgIfJRjwUTGDvQ?e=adCxF1)) - (test)
     + Raspberry PI 4B
       - EOS_PIBO_220601_V1([Download](https://circulusworkspace-my.sharepoint.com/:u:/g/personal/leeyunjai_circul_us1/EWDUeekQ8xdPntZu4I_vmq8BFB9lthX66qAqbiB7W4nCTA?e=UeMG5R)) - (old)
-      - EOS_PIBO_220701_V1([Download]()) - (test)      
+      - EOS_PIBO_220701_V1([Download](https://circulusworkspace-my.sharepoint.com/:u:/g/personal/leeyunjai_circul_us1/ESIG6YbFSyNIjvBKWSk8dPMBLBlq8Ziq8saMnfFcEdLhLg?e=RFzsws)) - (test)      
   - [릴리즈노트](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022.md)
   - [Openpibo 가이드](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
 > 교육 문의: ```yeonah@circul.us```
