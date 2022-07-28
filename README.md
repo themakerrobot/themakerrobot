@@ -21,7 +21,7 @@ Openpibo는 교육용 로봇 파이보를 쉽게 사용할 수 있도록 제작�
     + openpibo-files(Test and system file)
   - Openpibo 운영체제 (Only user for openpibo)
     + H/W: Raspberry Pi 4B / Raspberry Pi 3B+ (3B 표기)
-    + 최신버전: EOS_PIBO_220728_V1, EOS_PIBO_3B_220728_V1
+    + 최신버전: EOS_PIBO_220701_V1, EOS_PIBO_3B_220701_V1
     + [다운로드 링크]()
     
   - [릴리즈노트](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022.md)
