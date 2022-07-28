@@ -29,3 +29,4 @@ Openpibo는 교육용 로봇 파이보를 쉽게 사용할 수 있도록 제작�
   - [릴리즈노트](https://github.com/themakerrobot/themakerrobot/blob/main/ReleaseNotes/2022.md)
   - [Openpibo 가이드](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
 > 교육 문의: ```yeonah@circul.us```
+https://circulusworkspace-my.sharepoint.com/personal/leeyunjai_circul_us1/_layouts/15/onedrive.aspx?ga=1
