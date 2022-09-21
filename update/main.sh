@@ -17,6 +17,9 @@ sudo rm openpibo-files openpibo-tools -rf
 unzip openpibo-files.zip
 unzip openpibo-tools.zip
 
+mv openpibo-files-${F_VERSION} openpibo-files
+mv openpibo-tools-${T_VERSION} openpibo-tools
+
 sudo chown pi:pi -R openpibo-files openpibo-tools
 sudo rm openpibo-files.zip openpibo-tools.zip
 
