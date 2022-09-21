@@ -1,7 +1,7 @@
 #!/bin/bash
 echo openpibo OS version is "$(cat /home/pi/.OS_VERSION)"
 
-F_VERSION="220921v1"
+F_VERSION="220921v2"
 T_VERSION="220921v3"
 
 
