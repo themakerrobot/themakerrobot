@@ -6,6 +6,7 @@ T_VERSION="220905v1"
 
 cd /home/pi
 
+sudo pip3 install -U openpibo-python
 sudo pip3 install python-multipart
 sudo npm install --save multer
 
