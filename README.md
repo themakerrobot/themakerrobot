@@ -1,4 +1,4 @@
-![bg](bg.png)
+![bg](data/facebookskin.png)
 
 themakerrobot
 =============
