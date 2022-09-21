@@ -2,7 +2,7 @@
 echo openpibo OS version is "$(cat /home/pi/.OS_VERSION)"
 
 F_VERSION="220905v1"
-T_VERSION="220921v1"
+T_VERSION="220921v2"
 
 
 sudo pkill python3
