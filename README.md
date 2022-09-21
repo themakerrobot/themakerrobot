@@ -1,4 +1,4 @@
-![bg](data/bg.png)
+![bg](bg.png)
 
 themakerrobot
 =============
