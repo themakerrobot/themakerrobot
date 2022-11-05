@@ -33,4 +33,5 @@ sudo chown pi:pi -R openpibo-files openpibo-tools
 sudo rm openpibo-files.zip openpibo-tools.zip
 sudo echo "#20:0,0,255!" >/dev/ttyS0
 
-sudo shutdown -r now
+sudo shutdown -r now &
+sudo rm /home/pi/update -f
