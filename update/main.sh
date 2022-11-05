@@ -20,7 +20,9 @@ sudo echo "#20:0,255,0!" >/dev/ttyS0
 wget -O openpibo-tools.zip https://github.com/themakerrobot/openpibo-tools/archive/refs/tags/${T_VERSION}.zip
 wget -O openpibo-files.zip https://github.com/themakerrobot/openpibo-files/archive/refs/tags/${F_VERSION}.zip
 
-sudo rm openpibo-files openpibo-tools -rf
+sudo mv openpibo-files openpibo-files-tmp
+sudo mv openpibo-tools openpibo-tools-tmp
+
 unzip openpibo-files.zip
 unzip openpibo-tools.zip
 
