@@ -15,7 +15,7 @@ Openpibo는 교육용 로봇 파이보를 쉽게 사용할 수 있도록 제작�
 ```
 + Openpibo 소프트웨어
   - Repository
-    + openpibo-python(Python library)
+    + openpibo-python(Python package)
     + openpibo-os(SW for openpibo)
     + openpibo-examples(python example using openpibo-python)
     + openpibo-files(image/audio file for openpibo)
