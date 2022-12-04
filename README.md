@@ -16,9 +16,9 @@ Openpibo는 교육용 로봇 파이보를 쉽게 사용할 수 있도록 제작�
 + Openpibo 소프트웨어
   - Repository
     + openpibo-python(Python library)
-    + openpibo-tools(Tools for openpibo)
+    + openpibo-os(SW for openpibo)
     + openpibo-examples(python example using openpibo-python)
-    + openpibo-files(Test and system file)
+    + openpibo-files(image/audio file for openpibo)
   - Openpibo 운영체제 (Only user for openpibo)
     + H/W: Raspberry Pi 4B / Raspberry Pi 3B+ (3B 표기)
     + [OS 다운로드 바로가기](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/EksdEBIKQ6JJplSWtsad-CUBHbI3354b_5FCIWHsmNL_8g?e=i9ZeEd)
