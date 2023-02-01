@@ -35,3 +35,10 @@
 
 # sudo shutdown -r now &
 # sudo rm /home/pi/update -f
+
+# cat /dev/null > /etc/default/shellinabox
+# echo 'SHELLINABOX_DAEMON_START=1' >> /etc/default/shellinabox
+# echo 'SHELLINABOX_PORT=50001' >> /etc/default/shellinabox
+# echo 'SHELLINABOX_USER=pi' >> /etc/default/shellinabox
+# echo 'SHELLINABOX_GROUP=pi' >> /etc/default/shellinabox
+# echo 'SHELLINABOX_ARGS="--no-beep --disable-ssl --disable-ssl-menu"' >> /etc/default/shellinabox
