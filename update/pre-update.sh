@@ -37,6 +37,5 @@ else
   sudo echo "#20:50,200,50!" > /dev/ttyS0
   sleep 0.5
   sudo echo "#20:0,0,0!" > /dev/ttyS0
-  sleep 0.5
   sudo rm -rf /home/pi/update
 fi
