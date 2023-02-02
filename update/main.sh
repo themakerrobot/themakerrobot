@@ -1,4 +1,5 @@
 #!/bin/bash
+exit 0
 VER=$(cat /home/pi/.OS_VERSION)
 
 if [ "$VER" != "OPENPIBO_230201" ]
