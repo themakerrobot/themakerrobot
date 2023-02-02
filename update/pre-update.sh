@@ -19,6 +19,6 @@ then
   echo 'SHELLINABOX_ARGS="--no-beep --disable-ssl --disable-ssl-menu"' >> /home/pi/shellinabox
   sudo mv -f /home/pi/shellinabox /etc/default/shellinabox
 
-  echo "OPENPIBO_230201" < /home/pi/.OS_VERSION
+  echo "OPENPIBO_230201" > /home/pi/.OS_VERSION
 fi
 sudo rm -rf /home/pi/update
