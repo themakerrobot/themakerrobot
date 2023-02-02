@@ -4,13 +4,10 @@ VER=$(cat /home/pi/.OS_VERSION)
 if [ "$VER" != "OPENPIBO_230201" ]
 then
   sudo echo "#20:200,50,50!" > /dev/ttyS0
-  sleep 1
+  sleep 0.5
   sudo echo "#20:0,0,0!" > /dev/ttyS0
-  sleep 1
+  sleep 0.5
   sudo echo "#20:200,50,50!" > /dev/ttyS0
-  sleep 1
-  sudo echo "#20:0,0,0!" > /dev/ttyS0
-  sleep 1
 
   sudo apt install shellinabox -y
   sudo pip3 install -U openpibo-python
@@ -29,17 +26,17 @@ then
   sudo mv -f /home/pi/shellinabox /etc/default/shellinabox
 
   echo "OPENPIBO_230201" > /home/pi/.OS_VERSION
-  sudo echo "#20:255,255,255!" > /dev/ttyS0
+  sudo echo "#20:0,0,0!" > /dev/ttyS0
   sudo rm -rf /home/pi/update
   sudo shutdown -r now
 else
   sudo echo "#20:50,200,50!" > /dev/ttyS0
-  sleep 1
+  sleep 0.5
   sudo echo "#20:0,0,0!" > /dev/ttyS0
-  sleep 1
+  sleep 0.5
   sudo echo "#20:50,200,50!" > /dev/ttyS0
-  sleep 1
+  sleep 0.5
   sudo echo "#20:0,0,0!" > /dev/ttyS0
-  sleep 1
+  sleep 0.5
   sudo rm -rf /home/pi/update
 fi
