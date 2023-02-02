@@ -12,6 +12,7 @@ then
   sudo apt install shellinabox -y
   sudo pip3 install -U openpibo-python
 
+  cd /home/pi
   wget -O openpibo-os.zip https://github.com/themakerrobot/openpibo-os/archive/refs/tags/230201v1.zip
   unzip openpibo-os.zip
   sudo rm -rf openpibo-os openpibo-os.zip
