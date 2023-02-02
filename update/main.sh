@@ -1,44 +1,41 @@
 #!/bin/bash
-# echo openpibo OS version is "$(cat /home/pi/.OS_VERSION)"
+VER=$(cat /home/pi/.OS_VERSION)
 
-# F_VERSION="220921v3"
-# T_VERSION="220921v4"
+if [ "$VER" != "OPENPIBO_230201" ]
+then
+  sudo echo "#20:200,50,50!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:0,0,0!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:200,50,50!" > /dev/ttyS0
 
+  sudo apt install shellinabox -y
+  sudo pip3 install -U openpibo-python
 
-# sudo pkill python3
-# sudo pkill node
+  wget -O openpibo-os.zip https://github.com/themakerrobot/openpibo-os/archive/refs/tags/230201v1.zip
+  unzip openpibo-os.zip
+  sudo rm -rf openpibo-os openpibo-os.zip
+  mv openpibo-os-230201v1 openpibo-os
 
-# sudo echo "#20:255,0,0!" >/dev/ttyS0
+  sudo rm -rf /etc/default/shellinabox
+  echo 'SHELLINABOX_DAEMON_START=1' >> /home/pi/shellinabox
+  echo 'SHELLINABOX_PORT=50001' >> /home/pi/shellinabox
+  echo 'SHELLINABOX_USER=pi' >> /home/pi/shellinabox
+  echo 'SHELLINABOX_GROUP=pi' >> /home/pi/shellinabox
+  echo 'SHELLINABOX_ARGS="--no-beep --disable-ssl --disable-ssl-menu"' >> /home/pi/shellinabox
+  sudo mv -f /home/pi/shellinabox /etc/default/shellinabox
 
-# cd /home/pi
-# sudo pip3 install -U openpibo-python
-# sudo pip3 install python-multipart
-# sudo npm install --save multer
-
-# sudo echo "#20:0,255,0!" >/dev/ttyS0
-
-# wget -O openpibo-tools.zip https://github.com/themakerrobot/openpibo-tools/archive/refs/tags/${T_VERSION}.zip
-# wget -O openpibo-files.zip https://github.com/themakerrobot/openpibo-files/archive/refs/tags/${F_VERSION}.zip
-
-# sudo mv openpibo-files openpibo-files-tmp
-# sudo mv openpibo-tools openpibo-tools-tmp
-
-# unzip openpibo-files.zip
-# unzip openpibo-tools.zip
-
-# mv openpibo-files-${F_VERSION} openpibo-files
-# mv openpibo-tools-${T_VERSION} openpibo-tools
-
-# sudo chown pi:pi -R openpibo-files openpibo-tools
-# sudo rm openpibo-files.zip openpibo-tools.zip
-# sudo echo "#20:0,0,255!" >/dev/ttyS0
-
-# sudo shutdown -r now &
-# sudo rm /home/pi/update -f
-
-# cat /dev/null > /etc/default/shellinabox
-# echo 'SHELLINABOX_DAEMON_START=1' >> /etc/default/shellinabox
-# echo 'SHELLINABOX_PORT=50001' >> /etc/default/shellinabox
-# echo 'SHELLINABOX_USER=pi' >> /etc/default/shellinabox
-# echo 'SHELLINABOX_GROUP=pi' >> /etc/default/shellinabox
-# echo 'SHELLINABOX_ARGS="--no-beep --disable-ssl --disable-ssl-menu"' >> /etc/default/shellinabox
+  echo "OPENPIBO_230201" > /home/pi/.OS_VERSION
+  sudo echo "#20:0,0,0!" > /dev/ttyS0
+  sudo rm -rf /home/pi/update
+  sudo shutdown -r now
+else
+  sudo echo "#20:50,200,50!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:0,0,0!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:50,200,50!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:0,0,0!" > /dev/ttyS0
+  sudo rm -rf /home/pi/update
+fi
