@@ -1,5 +1,6 @@
 #!/bin/bash
 VERSION="OPENPIBO_230203_V1"
+SW_VERSION="230203v1"
 
 PRIO_VER=$(cat /home/pi/.OS_VERSION)
 
@@ -15,10 +16,10 @@ then
   sudo pip3 install -U openpibo-python
 
   cd /home/pi
-  wget -O openpibo-os.zip https://github.com/themakerrobot/openpibo-os/archive/refs/tags/230203v1.zip
+  wget -O openpibo-os.zip https://github.com/themakerrobot/openpibo-os/archive/refs/tags/$SW_VERSION.zip
   unzip openpibo-os.zip
   sudo rm -rf openpibo-os openpibo-os.zip
-  mv openpibo-os-230203v1 openpibo-os
+  mv openpibo-os-$SW_VERSION openpibo-os
 
   sudo rm -rf /etc/default/shellinabox
   echo 'SHELLINABOX_DAEMON_START=1' >> /home/pi/shellinabox
