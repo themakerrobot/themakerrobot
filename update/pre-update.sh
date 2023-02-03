@@ -1,7 +1,9 @@
 #!/bin/bash
-VER=$(cat /home/pi/.OS_VERSION)
+VERSION="OPENPIBO_230203_V1"
 
-if [ "$VER" != "OPENPIBO_230201_V1" ]
+PRIO_VER=$(cat /home/pi/.OS_VERSION)
+
+if [ "$PRIO_VER" != "$VERSION" ]
 then
   sudo echo "#20:200,50,50!" > /dev/ttyS0
   sleep 0.5
@@ -26,7 +28,7 @@ then
   echo 'SHELLINABOX_ARGS="--no-beep --disable-ssl --disable-ssl-menu"' >> /home/pi/shellinabox
   sudo mv -f /home/pi/shellinabox /etc/default/shellinabox
 
-  echo "OPENPIBO_230201_V1" > /home/pi/.OS_VERSION
+  echo $(VERSION) > /home/pi/.OS_VERSION
   sudo echo "#20:0,0,0!" > /dev/ttyS0
   sudo rm -rf /home/pi/update
   sudo shutdown -r now
