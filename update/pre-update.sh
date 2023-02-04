@@ -12,7 +12,7 @@ then
   sleep 0.5
   sudo echo "#20:200,50,50!" > /dev/ttyS0
 
-  sudo apt install shellinabox -y
+  sudo apt-get install shellinabox -y
   sudo pip3 install -U openpibo-python
 
   cd /home/pi
