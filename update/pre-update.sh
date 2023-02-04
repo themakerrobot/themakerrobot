@@ -21,7 +21,7 @@ then
   sudo rm -rf openpibo-os openpibo-os.zip
   mv openpibo-os-$OPENPIBO_OS_VERSION openpibo-os
 
-  wget -O openpibo-files.zip https://github.com/themakerrobot/openpibo-os/archive/refs/tags/$OPENPIBO_FILES_VERSION.zip
+  wget -O openpibo-files.zip https://github.com/themakerrobot/openpibo-files/archive/refs/tags/$OPENPIBO_FILES_VERSION.zip
   unzip openpibo-files.zip
   sudo rm -rf openpibo-files openpibo-files.zip
   mv openpibo-files-$OPENPIBO_FILES_VERSION openpibo-files
