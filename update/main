@@ -65,5 +65,5 @@ sudo rm -rf /home/pi/update
 
 if [ "$REBOOT" == "TRUE" ]
 then
-sudo shutdown -r now
+  sudo shutdown -r now
 fi
