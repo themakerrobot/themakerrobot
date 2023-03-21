@@ -57,17 +57,7 @@ then
   REBOOT="TRUE"
 fi
 
-sudo echo "#20:50,200,50!" > /dev/ttyS0
-sleep 0.5
-sudo echo "#20:0,0,0!" > /dev/ttyS0
-sleep 0.5
-sudo echo "#20:50,200,50!" > /dev/ttyS0
-sleep 0.5
-sudo echo "#20:0,0,0!" > /dev/ttyS0
-
-
 sudo rm -rf /home/pi/update
-
 if [ "$REBOOT" = "TRUE" ]
 then
   sudo echo "#20:200,50,50!" > /dev/ttyS0
