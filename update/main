@@ -63,7 +63,7 @@ sleep 0.5
 sudo echo "#20:0,0,0!" > /dev/ttyS0
 sudo rm -rf /home/pi/update
 
-if [ "$REBOOT" == "TRUE" ]
+if [ "$REBOOT" = "TRUE" ]
 then
   sudo shutdown -r now
 fi
