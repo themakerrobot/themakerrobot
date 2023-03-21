@@ -7,14 +7,17 @@ PRIO_OS_VER=$(cat /home/pi/.OS_VERSION)
 PRIO_TOOLS_VER=$(cat /home/pi/openpibo-os/VERSION)
 PRIO_FILES_VER=$(cat /home/pi/openpibo-files/VERSION)
 
+sudo echo "#20:200,200,200!" > /dev/ttyS0
+sleep 0.5
+sudo echo "#20:0,0,0!" > /dev/ttyS0
+sleep 0.5
+sudo echo "#20:200,200,200!" > /dev/ttyS0
+sleep 0.5
+sudo echo "#20:0,0,0!" > /dev/ttyS0
+
 REBOOT="FALSE"
 if [ "$PRIO_OS_VER" != "$VERSION" ]
 then
-  sudo echo "#20:50,50,200!" > /dev/ttyS0
-  sleep 0.5
-  sudo echo "#20:0,0,0!" > /dev/ttyS0
-  sleep 0.5
-  sudo echo "#20:50,50,200!" > /dev/ttyS0
   sudo pip3 install -U openpibo-python
   echo $VERSION > /home/pi/.OS_VERSION
   REBOOT="TRUE"
@@ -61,9 +64,26 @@ sleep 0.5
 sudo echo "#20:50,200,50!" > /dev/ttyS0
 sleep 0.5
 sudo echo "#20:0,0,0!" > /dev/ttyS0
+
+
 sudo rm -rf /home/pi/update
 
 if [ "$REBOOT" = "TRUE" ]
 then
+  sudo echo "#20:200,50,50!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:0,0,0!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:200,50,50!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:0,0,0!" > /dev/ttyS0
   sudo shutdown -r now
+else
+  sudo echo "#20:50,50,200!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:0,0,0!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:50,50,200!" > /dev/ttyS0
+  sleep 0.5
+  sudo echo "#20:0,0,0!" > /dev/ttyS0
 fi
