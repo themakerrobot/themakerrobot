@@ -8,7 +8,7 @@ PRIO_TOOLS_VER=$(cat /home/pi/openpibo-os/VERSION)
 PRIO_FILES_VER=$(cat /home/pi/openpibo-files/VERSION)
 
 REBOOT="FALSE"
-if [ "$PRIO_VER" != "$VERSION" ]
+if [ "$PRIO_OS_VER" != "$VERSION" ]
 then
   sudo echo "#20:50,50,200!" > /dev/ttyS0
   sleep 0.5
