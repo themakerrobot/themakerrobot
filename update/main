@@ -1,5 +1,12 @@
 #!/bin/bash
-VERSION="OPENPIBO_230321_V1"
+
+MODEL=$(tr -d '\0' </proc/device-tree/model)
+if [[ $MODEL == *"Pi 3"* ]];then
+  VERSION="OPENPIBO_3B_230321_V1"
+fi
+if [[ $MODEL == *"Pi 4"* ]];then
+  VERSION="OPENPIBO_230321_V1"
+fi
 OPENPIBO_OS_VERSION="230321v1"
 OPENPIBO_FILES_VERSION="230320v1"
 
