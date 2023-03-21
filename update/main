@@ -1,10 +1,10 @@
 #!/bin/bash
 MODEL=$(tr -d '\0' </proc/device-tree/model)
 if [[ $MODEL == *"Pi 3"* ]];then
-  VERSION="OPENPIBO_3B_230321_V1"
+  VERSION="OPENPIBO_3B_230321_V2"
 fi
 if [[ $MODEL == *"Pi 4"* ]];then
-  VERSION="OPENPIBO_230321_V1"
+  VERSION="OPENPIBO_230321_V2"
 fi
 OPENPIBO_OS_VERSION="230321v2"
 OPENPIBO_FILES_VERSION="230320v1"
