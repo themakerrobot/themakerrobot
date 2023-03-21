@@ -1,5 +1,4 @@
 #!/bin/bash
-
 MODEL=$(tr -d '\0' </proc/device-tree/model)
 if [[ $MODEL == *"Pi 3"* ]];then
   VERSION="OPENPIBO_3B_230321_V1"
