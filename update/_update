@@ -1,0 +1,28 @@
+#!/bin/bash
+
+VERSION="OPENPIBO_230321_V1"
+OPENPIBO_OS_VERSION="230321v1"
+OPENPIBO_FILES_VERSION="230320v1"
+
+cd /home/pi
+cp /media/usb/openpibo-os-$OPENPIBO_OS_VERSION.zip /home/pi
+cp /media/usb/openpibo-files-$OPENPIBO_FILES_VERSION.zip /home/pi
+
+unzip openpibo-os-$OPENPIBO_OS_VERSION.zip
+unzip openpibo-files-$OPENPIBO_FILES_VERSION.zip
+
+rm -rf openpibo-os openpibo-files
+mv openpibo-os-$OPENPIBO_OS_VERSION openpibo-os
+mv openpibo-files-$OPENPIBO_FILES_VERSION openpibo-files
+rm -rf openpibo-os-$OPENPIBO_OS_VERSION.zip openpibo-files-$OPENPIBO_FILES_VERSION.zip
+
+chown -R pi:pi openpibo-os
+chown -R pi:pi openpibo-files
+
+echo $VERSION > /home/pi/.OS_VERSION
+
+echo "#20:255,0,0,!" > /dev/ttyS0
+sleep 5
+echo "#20:0,0,0,!" > /dev/ttyS0
+sudo rm /home/pi/_update
+sudo shutdown -r now
