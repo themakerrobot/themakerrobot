@@ -27,3 +27,16 @@ Openpibo는 로봇에 대한 이해도를 높일 수 있는 예제 코드와 함
   - Openpibo 가이드
     + [Docs 바로가기](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
 > 교육 문의: ```yeonah@circul.us```
+> [shop](https://smartstore.naver.com/circulus/products/5493295821)
+
+Pibo Maker
+=============
+
++Tools
+![bg](data/tools1.png)
+![bg](data/tools2.png)
+![bg](data/tools3.png)
++ IDE
+![bg](data/ide1.png)
+![bg](data/ide2.png)
+![bg](data/ide3.png)
