@@ -33,10 +33,11 @@ Pibo Maker
 =============
 
 +Tools
-![bg](data/tools1.png)
-![bg](data/tools2.png)
-![bg](data/tools3.png)
+  - ![bg](data/tools1.png)
+  - ![bg](data/tools2.png)
+  - ![bg](data/tools3.png)
 + IDE
+
 ![bg](data/ide1.png)
 ![bg](data/ide2.png)
 ![bg](data/ide3.png)
