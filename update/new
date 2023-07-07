@@ -1,6 +1,6 @@
 #!/bin/bash
 #curl -s https://raw.githubusercontent.com/themakerrobot/themakerrobot/main/update/main > /home/pi/update
-#bash /home/pi/update
+#sudo bash /home/pi/update
 
 MODEL=$(tr -d '\0' </proc/device-tree/model)
 if [[ $MODEL == *"Pi 3"* ]];then
