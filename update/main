@@ -1,14 +1,19 @@
 #!/bin/bash
+#curl -s https://raw.githubusercontent.com/themakerrobot/themakerrobot/main/update/main > /home/pi/update
+#sudo bash /home/pi/update
+
+OS_VERSION="230717v4"
+OPENPIBO_OS_VERSION="230717v4"
+OPENPIBO_FILES_VERSION="230320v1"
+OPENPIBO_PYTHON="0.9.2.53"
+
 MODEL=$(tr -d '\0' </proc/device-tree/model)
 if [[ $MODEL == *"Pi 3"* ]];then
-  VERSION="OPENPIBO_3B_230417_V1"
+  VERSION="OPENPIBO_3B_$OS_VERSION"
 fi
 if [[ $MODEL == *"Pi 4"* ]];then
-  VERSION="OPENPIBO_230417_V1"
+  VERSION="OPENPIBO_$OS_VERSION"
 fi
-OPENPIBO_OS_VERSION="230417v7"
-OPENPIBO_FILES_VERSION="230320v1"
-OPENPIBO_PYTHON="0.9.2.48"
 
 PRIO_OS_VER=$(cat /home/pi/.OS_VERSION)
 PRIO_TOOLS_VER=$(cat /home/pi/openpibo-os/VERSION)
