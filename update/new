@@ -15,7 +15,6 @@ if [[ $MODEL == *"Pi 4"* ]];then
   VERSION="OPENPIBO_$OS_VERSION"
 fi
 
-
 PRIO_OS_VER=$(cat /home/pi/.OS_VERSION)
 PRIO_TOOLS_VER=$(cat /home/pi/openpibo-os/VERSION)
 PRIO_FILES_VER=$(cat /home/pi/openpibo-files/VERSION)
