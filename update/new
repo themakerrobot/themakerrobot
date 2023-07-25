@@ -1,5 +1,5 @@
 #!/bin/bash
-#curl -s https://raw.githubusercontent.com/themakerrobot/themakerrobot/main/update/main > /home/pi/update
+#curl -s https://raw.githubusercontent.com/themakerrobot/themakerrobot/main/update/new > /home/pi/update
 #sudo bash /home/pi/update
 
 OS_VERSION="230717v4"
