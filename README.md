@@ -21,7 +21,7 @@ Openpibo는 로봇에 대한 이해도를 높일 수 있는 예제 코드와 함
     + openpibo-files(image/audio file for openpibo) [바로가기](https://github.com/themakerrobot/openpibo-files)
   - Openpibo 운영체제 (Only user for openpibo)
     + H/W: Raspberry Pi 4B / Raspberry Pi 3B+ (3B 표기)
-    + [OS 다운로드 바로가기](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/EksdEBIKQ6JJplSWtsad-CUBHbI3354b_5FCIWHsmNL_8g?e=i9ZeEd)
+    + [OS 다운로드 바로가기](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/EksdEBIKQ6JJplSWtsad-CUBWzVmk8rqmYv0COuROT9mfw?e=qy5c8n)
     + [릴리즈노트 바로가기](https://github.com/themakerrobot/themakerrobot/releases)
   - Openpibo 가이드
     + [Docs 바로가기](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
