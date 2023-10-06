@@ -2,8 +2,8 @@
 #curl -s https://raw.githubusercontent.com/themakerrobot/themakerrobot/main/update/main > /home/pi/update
 #sudo bash /home/pi/update
 
-OS_VERSION="230829v2"
-OPENPIBO_OS_VERSION="230829v2"
+OS_VERSION="230829v3"
+OPENPIBO_OS_VERSION="230829v3"
 OPENPIBO_FILES_VERSION="230320v1"
 OPENPIBO_PYTHON="0.9.2.55"
 
