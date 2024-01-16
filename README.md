@@ -53,5 +53,6 @@ Block 코딩은 시각적인 블록을 조합하여 프로그램을 작성하는
   - ![bg](data/ide1.png)
   - ![bg](data/ide2.png)
   - ![bg](data/ide3.png)
+  - ![bg](data/ide4.png)
 
 #교육용로봇 #파이보 #Pibo #AI #인공지능 #머신러닝 #딥러닝 #Block #블록 #개발도구 #프로그래밍 #소프트웨어 #하드웨어 #서비스 #IT기술 #에듀테크 #edutech #블록코딩 #파이썬 #python #Blockly #메이커 #Maker
