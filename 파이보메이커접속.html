@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pibo Maker</title>
+    <link rel="icon" type="image/png" href="data:image/png;base64,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">
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* 폰트 변경 */
+            background-color: #f2f2f2; /* 배경색 변경 */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* 그림자 효과 변경 */
+            padding: 40px 30px;
+        }
+        .container h1 {
+            margin-bottom: 25px;
+            font-size: 28px;
+            color: #333;
+        }
+        .ip-inputs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+        .ip-inputs span {
+            font-size: 20px;
+            margin-right: 10px;
+            color: #333;
+        }
+        .ip-inputs input[type="number"] {
+            width: 60px; /* 입력 필드 크기 확장 */
+            padding: 12px;
+            margin: 0 8px;
+            border: 2px solid #ddd; /* 강조된 테두리 추가 */
+            border-radius: 8px;
+            font-size: 18px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 변경 */
+        }
+        .ip-inputs input[type="number"]:disabled {
+            background-color: #eee;
+        }
+        button {
+            width: 100%;
+            background-color: #f4de3d;
+            color: #555;
+            padding: 18px 0;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 효과 변경 */
+            margin-bottom: 15px;
+        }
+        button:hover {
+            font-weight: bold;
+            background-color: #f4d85a;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>연결하기</h1>
+    <div class="ip-inputs">
+        <span>IP:</span>
+        <input type="number" id="ip1" min="0" max="255" value="192" disabled>
+        <input type="number" id="ip2" min="0" max="255" value="168" disabled>
+        <input type="number" id="ip3" min="0" max="255" value="0">
+        <input type="number" id="ip4" min="0" max="255" value="1">
+    </div>
+    <button id="tools_bt">체험 모드 (TOOLS)</button>
+    <button id="ide_bt">코딩 모드 (IDE)</button>
+</div>
+<script>
+    function connect(mode) {
+        let ip1 = document.getElementById("ip1").value;
+        let ip2 = document.getElementById("ip2").value;
+        let ip3 = document.getElementById("ip3").value;
+        let ip4 = document.getElementById("ip4").value;
+        let base_url = `http://${ip1}.${ip2}.${ip3}.${ip4}`;
+        let url = mode === 'tools' ? base_url : `${base_url}:50000`;
+        
+        if (confirm(url + "로 접속할까요?")) {
+            window.location.href = url;
+        } else {
+            alert("취소되었습니다.");
+        }
+    }
+
+    document.getElementById("tools_bt").addEventListener("click", function() {
+        connect('tools');
+    });
+
+    document.getElementById("ide_bt").addEventListener("click", function() {
+        connect('ide');
+    });
+</script>
+</body>
+</html>
