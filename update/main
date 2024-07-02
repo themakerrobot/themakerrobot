@@ -21,17 +21,17 @@ PRIO_TOOLS_VER=$(cat /home/pi/openpibo-os/VERSION)
 PRIO_FILES_VER=$(cat /home/pi/openpibo-files/VERSION)
 
 sudo echo "#20:0,200,0!" > /dev/ttyS0
-sleep 0.3
+sleep 0.2
 sudo echo "#20:0,0,0!" > /dev/ttyS0
-sleep 0.3
+sleep 0.2
 sudo echo "#20:0,200,0!" > /dev/ttyS0
-sleep 0.3
+sleep 0.2
 sudo echo "#20:0,0,0!" > /dev/ttyS0
-sleep 0.3
+sleep 0.2
 sudo echo "#20:0,200,0!" > /dev/ttyS0
-sleep 0.3
+sleep 0.2
 sudo echo "#20:0,0,0!" > /dev/ttyS0
-sleep 0.3
+sleep 0.2
 
 REBOOT="FALSE"
 if [ "$PRIO_OS_VER" != "$VERSION" ]
