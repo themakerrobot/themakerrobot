@@ -78,20 +78,16 @@ fi
 sudo rm -rf /home/pi/update
 if [ "$REBOOT" = "TRUE" ]
 then
-  sudo echo "#20:150,50,50!" > /dev/ttyS0
+  sudo echo "#20:50,200,50!" > /dev/ttyS0
   sleep 0.5
-  sudo echo "#20:0,0,0!" > /dev/ttyS0
+  sudo echo "#20:50,100,50!" > /dev/ttyS0
   sleep 0.5
-  sudo echo "#20:150,50,50!" > /dev/ttyS0
-  sleep 0.5
-  sudo echo "#20:0,0,0!" > /dev/ttyS0
+  sudo echo "#20:50,50,50!" > /dev/ttyS0
   sudo shutdown -r now
 else
-  sudo echo "#20:50,50,150!" > /dev/ttyS0
+  sudo echo "#20:50,50,200!" > /dev/ttyS0
   sleep 0.5
-  sudo echo "#20:0,0,0!" > /dev/ttyS0
+  sudo echo "#20:50,50,100!" > /dev/ttyS0
   sleep 0.5
-  sudo echo "#20:50,50,150!" > /dev/ttyS0
-  sleep 0.5
-  sudo echo "#20:0,0,0!" > /dev/ttyS0
+  sudo echo "#20:50,50,50!" > /dev/ttyS0
 fi
