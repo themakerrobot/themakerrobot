@@ -30,7 +30,7 @@ Openpibo는 로봇에 대한 이해도를 높일 수 있는 예제 코드와 함
 
 > [>>> Link To Shop](https://smartstore.naver.com/circulus/products/5493295821)
 
-+ 웹기반 개발툴
++ 웹기반 개발 및 인공지능 도구 바로가기
   - [>>> 파이썬 기본 학습용 도구](https://themakerrobot.github.io/web-python/)
   - [>>> 블록코딩 기본 학습용 도구](https://themakerrobot.github.io/web-blockly/)
   - [>>> 파이브레인(UART)전용 - 블록코딩 도구](https://themakerrobot.github.io/web-serial/)
