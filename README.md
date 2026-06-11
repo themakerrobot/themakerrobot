@@ -14,27 +14,15 @@ THE MAKER는 학생들이 하드웨어와 소프트웨어, 서비스 개발 등 
 Openpibo는 로봇에 대한 이해도를 높일 수 있는 예제 코드와 함께 제공되며, 학생들이 로봇을 직접 제어하며 새로운 기술과 경험을 습득할 수 있도록 돕습니다.
 ```
 + Openpibo 소프트웨어
-  - Repository
-    + themakerrobot [바로가기](https://github.com/themakerrobot/themakerrobot)
-    + openpibo-python(Python package) [바로가기](https://github.com/themakerrobot/openpibo-python)
-    + openpibo-os(SW for openpibo) [바로가기](https://github.com/themakerrobot/openpibo-os)
-    + openpibo-examples(python example using openpibo-python) [바로가기](https://github.com/themakerrobot/openpibo-examples)
-    + openpibo-files(image/audio file for openpibo) [바로가기](https://github.com/themakerrobot/openpibo-files)
   - Openpibo 운영체제 (Only for piBo or piBrain)
     + H/W: Raspberry Pi 4B / Raspberry Pi 3B+ (3B 표기)
     + [공유자료-운영체제/사용가이드 바로가기](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/IgBLHRASCkOiSaZUlrbGnfglAbEknmT2sq_XVxMRmbLLUrM?e=o2QL8Z)
-    + [릴리즈노트 바로가기](https://github.com/themakerrobot/themakerrobot/releases)
   - Openpibo 가이드
-    + [Docs 바로가기](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
+    + [구형 240701 OS SDK 바로가기](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
+    + 
 > 교육 문의: ```yeonah@circul.us```
 
 > [>>> Link To Shop](https://smartstore.naver.com/circulus/products/5493295821)
-
-+ 웹기반 개발 및 인공지능 도구 바로가기
-  - [>>> 파이썬 기본 학습용 도구](https://themakerrobot.github.io/web-python/)
-  - [>>> 블록코딩 기본 학습용 도구](https://themakerrobot.github.io/web-blockly/)
-  - [>>> 파이브레인(UART)전용 - 블록코딩 도구](https://themakerrobot.github.io/web-serial/)
-  - [>>> 이미지 분류 - 학습/추론 도구](https://themakerrobot.github.io/web-classifier)
 
 Pibo Maker
 =============
