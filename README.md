@@ -18,8 +18,10 @@ Openpibo는 로봇에 대한 이해도를 높일 수 있는 예제 코드와 함
     + H/W: Raspberry Pi 4B / Raspberry Pi 3B+ (3B 표기)
     + [공유자료-운영체제/사용가이드 바로가기](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/IgBLHRASCkOiSaZUlrbGnfglAbEknmT2sq_XVxMRmbLLUrM?e=o2QL8Z)
   - Openpibo 가이드
-    + [구형 240701 OS SDK 바로가기](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
-    + 
+    + [Old](https://themakerrobot.github.io/openpibo-python/build/html/index.html)
+    + [파이브레인26](https://themakerrobot.github.io/openpibo-os.pibrain/build/html/index.html)
+    + [파이보26](https://themakerrobot.github.io/openpibo-os.pibo/build/html/index.html)
+
 > 교육 문의: ```yeonah@circul.us```
 
 > [>>> Link To Shop](https://smartstore.naver.com/circulus/products/5493295821)
