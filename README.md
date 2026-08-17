@@ -48,6 +48,7 @@ THE MAKER는 학생들이 하드웨어, 소프트웨어, 서비스 개발 등 �
 | Old | [바로가기](https://themakerrobot.github.io/openpibo-python/build/html/index.html) |
 | 파이브레인26 | [바로가기](https://themakerrobot.github.io/openpibo-os.pibrain/build/html/index.html) |
 | 파이보26 | [바로가기](https://themakerrobot.github.io/openpibo-os.pibo/build/html/index.html) |
+| 파이보랩 | [바로가기](https://pibo-lab.themaker.workers.dev/) |
 
 ---
 
