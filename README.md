@@ -1,7 +1,7 @@
 <img src="data/hero.png" width="100%" alt="THE MAKER — 로봇으로 배우는 AI 코딩 교육">
 
 <p align="center">
-  <a href="https://smartstore.naver.com/circulus/products/5493295821"><img src="data/btn-buy.png" height="44" alt="구매하기"></a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU2oCmdhZ0bHcyK7MYdUHiultM6w9UE3cIt_KLppp-9Ug-ag/viewform"><img src="data/btn-intro.png" height="44" alt="도입 문의"></a>
   <a href="mailto:info@circul.us"><img src="data/btn-mail.png" height="44" alt="교육 문의"></a>
   <a href="https://themakerrobot.github.io/openpibo-guide/"><img src="data/btn-docs.png" height="44" alt="문서·예제"></a>
   <a href="http://pibo.circul.us"><img src="data/btn-home.png" height="44" alt="홈페이지"></a>
@@ -71,5 +71,5 @@
 ---
 
 <p align="center">
-  구매·교육 문의 <a href="mailto:info@circul.us">info@circul.us</a> · <a href="http://pibo.circul.us">pibo.circul.us</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU2oCmdhZ0bHcyK7MYdUHiultM6w9UE3cIt_KLppp-9Ug-ag/viewform">도입 문의</a> · 교육 문의 <a href="mailto:info@circul.us">info@circul.us</a> · <a href="http://pibo.circul.us">pibo.circul.us</a>
 </p>
