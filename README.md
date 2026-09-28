@@ -66,11 +66,12 @@
 
 ---
 
-## 🧰 파이보 활용 소프트웨어
+## 🧰 파이보 · 파이브레인 활용 소프트웨어
 
 | 이름 | 하는 일 | 바로가기 |
 |---|---|---|
 | **파이보랩** | 기기 없이 온라인에서 파이보를 체험하고 활용합니다 | [열기](https://pibo-lab.themaker.workers.dev/) |
+| **Code Lab** | 블록과 파이썬으로 코딩하고, 브라우저나 USB로 연결한 파이브레인에서 바로 실행합니다 | [열기](https://themakerrobot.github.io/code-lab/) · [저장소](https://github.com/themakerrobot/code-lab) |
 | **pibo-connect** | 교실의 파이보·파이브레인 여러 대를 브라우저 한 장으로 찾고, 같은 코드를 한 번에 실행합니다 | [저장소](https://github.com/themakerrobot/pibo-connector) |
 
 ## 🧠 AI 교육 소프트웨어
