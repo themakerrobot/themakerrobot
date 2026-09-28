@@ -4,13 +4,13 @@
   <a href="https://smartstore.naver.com/circulus/products/5493295821"><img src="data/btn-buy.png" height="44" alt="구매하기"></a>
   <a href="mailto:info@circul.us"><img src="data/btn-mail.png" height="44" alt="교육 문의"></a>
   <a href="https://themakerrobot.github.io/openpibo-guide/"><img src="data/btn-docs.png" height="44" alt="문서·예제"></a>
-  <a href="https://pibo-lab.themaker.workers.dev/"><img src="data/btn-lab.png" height="44" alt="pibo-lab"></a>
+  <a href="https://pibo-lab.themaker.workers.dev/"><img src="data/btn-lab.png" height="44" alt="Pibo Lab"></a>
   <a href="http://pibo.circul.us"><img src="data/btn-home.png" height="44" alt="홈페이지"></a>
 </p>
 
 <p align="center">
   서큘러스의 교육 브랜드 <b>THE MAKER</b>입니다. 인공지능 로봇 파이보와 파이브레인으로<br>
-  블록 코딩부터 파이썬 AI까지, 직접 만지고 코딩하며 나만의 로봇 서비스를 만듭니다.
+  블록 코딩부터 파이썬 인공지능까지, 직접 만지고 코딩하며 나만의 로봇 서비스를 만듭니다.
 </p>
 
 <br>
@@ -22,9 +22,9 @@
 
 ## 시작하기
 
-1. 기기의 **OS 버전**을 확인합니다.
+1. 기기의 **운영체제(OS) 버전**을 확인합니다.
 2. [문서·예제 사이트](https://themakerrobot.github.io/openpibo-guide/)에서 **같은 버전**의 문서와 예제를 엽니다.
-3. 기기 안의 **Pibo Maker**(IDE)에서 블록이나 파이썬으로 실행합니다.
+3. 기기 안의 **Pibo Maker IDE**에서 블록이나 파이썬으로 실행합니다.
 
 | 기기 | 최신 배포 | 문서 | 예제 |
 |---|---|---|---|
@@ -46,13 +46,13 @@
   <img src="data/ide1.png" width="32%"> <img src="data/ide2.png" width="32%"> <img src="data/ide3.png" width="32%">
 </p>
 
-## 파이보 · 파이브레인 활용 소프트웨어
+## 파이보·파이브레인 활용 소프트웨어
 
 | 이름 | 하는 일 | 바로가기 |
 |---|---|---|
-| **pibo-lab** | 기기 없이 온라인에서 파이보를 체험하고 활용합니다 | [열기](https://pibo-lab.themaker.workers.dev/) |
-| **Code Lab** | 블록과 파이썬으로 코딩하고, 브라우저나 USB로 연결한 파이브레인에서 바로 실행합니다 | [열기](https://themakerrobot.github.io/code-lab/) · [저장소](https://github.com/themakerrobot/code-lab) |
-| **pibo-connect** | 교실의 파이보·파이브레인 여러 대를 한 화면에서 찾고, 같은 코드를 한 번에 실행합니다 | [저장소](https://github.com/themakerrobot/pibo-connector) |
+| **Pibo Lab** | 기기 없이 온라인에서 파이보를 체험하고 활용합니다 | [바로 쓰기](https://pibo-lab.themaker.workers.dev/) |
+| **Code Lab** | 블록과 파이썬으로 코딩하고, 브라우저나 USB로 연결한 파이브레인에서 바로 실행합니다 | [바로 쓰기](https://themakerrobot.github.io/code-lab/) · [자세히 보기](https://github.com/themakerrobot/code-lab) |
+| **Pibo Connect** | 교실의 파이보·파이브레인 여러 대를 한 화면에서 찾고, 같은 코드를 한 번에 실행합니다 | [자세히 보기](https://github.com/themakerrobot/pibo-connector) |
 
 ## AI 교육 소프트웨어
 
@@ -60,8 +60,8 @@
 
 | 이름 | 하는 일 | 바로가기 |
 |---|---|---|
-| **Teach Lab** | 웹캠·마이크로 보여 준 것을 브라우저 안에서 바로 AI에게 가르칩니다 | [열기](https://themakerrobot.github.io/teach-lab/) · [저장소](https://github.com/themakerrobot/teach-lab) |
-| **edge-lab** | 인터넷 없이 내 PC 안에서 도는 AI 학습 도구입니다 | [저장소](https://github.com/themakerrobot/edge-lab) |
+| **Teach Lab** | 웹캠·마이크로 보여 준 것을 브라우저 안에서 바로 AI에게 가르칩니다 | [바로 쓰기](https://themakerrobot.github.io/teach-lab/) · [자세히 보기](https://github.com/themakerrobot/teach-lab) |
+| **Edge Lab** | 인터넷 없이 내 PC 안에서 AI를 체험하고 직접 가르칩니다 | [자세히 보기](https://github.com/themakerrobot/edge-lab) |
 
 ## 이렇게 배웁니다
 
@@ -72,5 +72,5 @@
 ---
 
 <p align="center">
-  구매·교육 문의 <a href="mailto:info@circul.us">info@circul.us</a> · <a href="https://smartstore.naver.com/circulus/products/5493295821">네이버 스토어</a> · <a href="http://pibo.circul.us">pibo.circul.us</a>
+  구매·교육 문의 <a href="mailto:info@circul.us">info@circul.us</a> · <a href="http://pibo.circul.us">pibo.circul.us</a>
 </p>
