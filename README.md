@@ -33,6 +33,18 @@
   <img src="data/card-pibrain.png" width="49%" alt="파이브레인 (piBrain) — 화면과 버튼이 달린 AI 보드">
 </p>
 
+### piBo Maker · piBrain Maker — 로봇 안에 들어 있는 개발 환경
+
+파이보에는 **piBo Maker**, 파이브레인에는 **piBrain Maker**가 들어 있습니다. 같은 와이파이에 연결한 PC 브라우저로 접속해서 씁니다.
+
+- **Tools** — 모터, 센서, 카메라, 마이크를 하나씩 켜 보고 값을 확인하며 로봇의 작동 원리를 익힙니다.
+- **IDE** — 블록 코딩과 파이썬을 지원합니다. 이미지·오디오 재생, 파일 탐색기, 로그 보기가 함께 있습니다.
+
+<p align="center">
+  <img src="data/tools1.png" width="32%"> <img src="data/tools2.png" width="32%"> <img src="data/tools3.png" width="32%">
+  <img src="data/ide1.png" width="32%"> <img src="data/ide2.png" width="32%"> <img src="data/ide3.png" width="32%">
+</p>
+
 ## AI 교육 소프트웨어
 
 로봇이 없어도, 인터넷이 없어도 AI를 배웁니다. 찍은 사진과 소리는 기기 밖으로 나가지 않습니다.
@@ -92,18 +104,6 @@
 
 OS 설치 이미지와 사용 가이드는 [공유 폴더](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/IgBLHRASCkOiSaZUlrbGnfglAbEknmT2sq_XVxMRmbLLUrM?e=o2QL8Z)에 있습니다. 지원 하드웨어: Raspberry Pi 4B
 
-### piBo Maker · piBrain Maker — 기기 안의 개발 환경
-
-파이보에는 **piBo Maker**, 파이브레인에는 **piBrain Maker**가 들어 있습니다. 같은 와이파이에 연결한 PC 브라우저로 접속해서 씁니다.
-
-- **Tools** — 모터, 센서, 카메라, 마이크를 하나씩 켜 보고 값을 확인하며 로봇의 작동 원리를 익힙니다.
-- **IDE** — 블록 코딩과 파이썬을 지원합니다. 이미지·오디오 재생, 파일 탐색기, 로그 보기가 함께 있습니다.
-
-<p align="center">
-  <img src="data/tools1.png" width="32%"> <img src="data/tools2.png" width="32%"> <img src="data/tools3.png" width="32%">
-  <img src="data/ide1.png" width="32%"> <img src="data/ide2.png" width="32%"> <img src="data/ide3.png" width="32%">
-</p>
-
 <p align="center">
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU2oCmdhZ0bHcyK7MYdUHiultM6w9UE3cIt_KLppp-9Ug-ag/viewform">도입 문의</a> · 교육 문의 <a href="mailto:info@circul.us">info@circul.us</a> · <a href="http://pibo.circul.us">pibo.circul.us</a>
 </p>
@@ -132,6 +132,18 @@ OS 설치 이미지와 사용 가이드는 [공유 폴더](https://circulusworks
 ### AI robots
 
 **Pibo**, a humanoid robot that moves, and **piBrain**, an AI board with a screen and buttons. Students put the AI they made onto the robot and watch it move.
+
+#### piBo Maker · piBrain Maker — built into the robot
+
+Pibo comes with **piBo Maker** and piBrain with **piBrain Maker**. Open it from a PC browser on the same Wi-Fi.
+
+- **Tools** — turn on motors, sensors, the camera and the microphone one by one and see how the robot works.
+- **IDE** — block coding and Python, with image and audio playback, a file explorer and logs.
+
+<p align="center">
+  <img src="data/tools1.png" width="32%"> <img src="data/tools2.png" width="32%"> <img src="data/tools3.png" width="32%">
+  <img src="data/ide1.png" width="32%"> <img src="data/ide2.png" width="32%"> <img src="data/ide3.png" width="32%">
+</p>
 
 ### AI education software
 
@@ -186,13 +198,6 @@ Features and blocks **differ by OS version**, so use the docs for the version on
 3. Run blocks or Python in **piBo Maker** or **piBrain Maker** on the device.
 
 OS images and setup guides are in the [shared folder](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/IgBLHRASCkOiSaZUlrbGnfglAbEknmT2sq_XVxMRmbLLUrM?e=o2QL8Z). Supported hardware: Raspberry Pi 4B
-
-#### piBo Maker · piBrain Maker — on the device
-
-Pibo comes with **piBo Maker** and piBrain with **piBrain Maker**. Open it from a PC browser on the same Wi-Fi.
-
-- **Tools** — turn on motors, sensors, the camera and the microphone one by one and see how the robot works.
-- **IDE** — block coding and Python, with image and audio playback, a file explorer and logs.
 
 <p align="center">
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU2oCmdhZ0bHcyK7MYdUHiultM6w9UE3cIt_KLppp-9Ug-ag/viewform">Request a demo</a> · Contact <a href="mailto:info@circul.us">info@circul.us</a> · <a href="http://pibo.circul.us">pibo.circul.us</a>
