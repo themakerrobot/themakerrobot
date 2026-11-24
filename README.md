@@ -33,13 +33,13 @@
 움직이는 휴머노이드 **파이보**, 화면과 버튼이 달린 AI 보드 **파이브레인**. 수업에서 만든 AI를 로봇에 실어 직접 움직여 봅니다.
 
 <p align="center">
-  <img src="data/card-pibo.png" width="49%" alt="파이보 (Pibo) — 움직이는 휴머노이드 AI 로봇">
-  <img src="data/card-pibrain.png" width="49%" alt="파이브레인 (piBrain) — 화면과 버튼이 달린 AI 보드">
+  <img src="data/card-pibo.png" width="49%" alt="파이보 (piBo) — 움직이는 휴머노이드 AI 로봇">
+  <img src="data/card-pibrain.png" width="49%" alt="파이브레인 (PiBrain) — 화면과 버튼이 달린 AI 보드">
 </p>
 
-### piBo Maker · piBrain Maker — 로봇 안에 들어 있는 개발 환경
+### piBo Maker · PiBrain Maker — 로봇 안에 들어 있는 개발 환경
 
-파이보에는 **piBo Maker**, 파이브레인에는 **piBrain Maker**가 들어 있습니다. 같은 와이파이에 연결한 PC 브라우저로 접속해서 씁니다.
+파이보에는 **piBo Maker**, 파이브레인에는 **PiBrain Maker**가 들어 있습니다. 같은 와이파이에 연결한 PC 브라우저로 접속해서 씁니다.
 
 - **Tools** — 모터, 센서, 카메라, 마이크를 하나씩 켜 보고 값을 확인하며 로봇의 작동 원리를 익힙니다.
 - **IDE** — 블록 코딩과 파이썬을 지원합니다. 이미지·오디오 재생, 파일 탐색기, 로그 보기가 함께 있습니다.
@@ -56,11 +56,11 @@
 <table>
   <tr>
     <td width="50%" valign="top" align="center">
-      <img src="data/sw-pibolab.png" width="100%" alt="pibolab"><br>
+      <img src="data/sw-pibolab.png" width="100%" alt="Pibo Lab"><br>
       <a href="https://pibo-lab.themaker.workers.dev/"><b>바로 쓰기</b></a>
     </td>
     <td width="50%" valign="top" align="center">
-      <img src="data/sw-piboconnect.png" width="100%" alt="piboconnect"><br>
+      <img src="data/sw-piboconnect.png" width="100%" alt="Pibo Connect"><br>
       <a href="https://github.com/themakerrobot/pibo-connect/releases/latest"><b>다운로드</b></a> · <a href="https://github.com/themakerrobot/pibo-connect/releases">릴리스 노트</a> · <a href="https://github.com/themakerrobot/pibo-connect#readme">가이드</a>
     </td>
   </tr>
@@ -70,7 +70,7 @@
 
 <table>
   <tr>
-    <td width="56%" valign="middle"><img src="data/feat-edgelab-ko.png" width="100%" alt="edgelab"></td>
+    <td width="56%" valign="middle"><img src="data/feat-edgelab-ko.png" width="100%" alt="Edge Lab"></td>
     <td width="44%" valign="middle">
       <p>설치하고 나면 <b>인터넷 없이</b> 교실 노트북 안에서 모든 AI가 돌아갑니다.</p>
       <ul>
@@ -88,7 +88,7 @@
 
 <table>
   <tr>
-    <td width="56%" valign="middle"><img src="data/feat-ailab-ko.png" width="100%" alt="ailab"></td>
+    <td width="56%" valign="middle"><img src="data/feat-ailab-ko.png" width="100%" alt="AI Lab"></td>
     <td width="44%" valign="middle">
       <p><b>설치 없이</b> 링크만 열면 시작합니다. 사진과 소리는 기기 밖으로 나가지 않습니다.</p>
       <ul>
@@ -106,7 +106,7 @@
 
 <table>
   <tr>
-    <td width="56%" valign="middle"><img src="data/feat-easydetect-ko.png" width="100%" alt="easydetect"></td>
+    <td width="56%" valign="middle"><img src="data/feat-easydetect-ko.png" width="100%" alt="EasyDetect"></td>
     <td width="44%" valign="middle">
       <p>노트북에서 <b>학습하고 시험한 뒤</b>, 파일 하나로 <b>파이보·파이브레인</b>에 옮겨 실행합니다.</p>
       <ul>
@@ -135,7 +135,7 @@
 
 1. 기기의 OS 버전을 확인합니다. 버전은 `260624v1`처럼 적혀 있습니다.
 2. **[버전별 문서·예제](https://themakerrobot.github.io/openpibo-guide/)** 에서 기기와 같은 버전을 엽니다.
-3. 기기 안의 **piBo Maker · piBrain Maker**에서 블록이나 파이썬으로 실행합니다.
+3. 기기 안의 **piBo Maker · PiBrain Maker**에서 블록이나 파이썬으로 실행합니다.
 
 OS 설치 이미지와 사용 가이드는 [공유 폴더](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/IgBLHRASCkOiSaZUlrbGnfglAbEknmT2sq_XVxMRmbLLUrM?e=o2QL8Z)에 있습니다. 지원 하드웨어: Raspberry Pi 4B
 
@@ -152,7 +152,7 @@ OS 설치 이미지와 사용 가이드는 [공유 폴더](https://circulusworks
 <h3 align="center">Learn AI by touching, teaching and coding it</h3>
 
 <p align="center">
-  <b>THE MAKER</b>, the education brand of Circulus, teaches AI in one path with the AI robots <b>Pibo</b> and <b>piBrain</b><br>
+  <b>THE MAKER</b>, the education brand of Circulus, teaches AI in one path with the AI robots <b>piBo</b> and <b>PiBrain</b><br>
   and our <b>AI education software</b> — from hands-on play, through blocks and Python, to your own AI moving a robot.
 </p>
 
@@ -162,19 +162,19 @@ OS 설치 이미지와 사용 가이드는 [공유 폴더](https://circulusworks
 
 ### Pick what fits your classroom
 
-<img src="data/lineup-en.png" width="100%" alt="AI robots: Pibo · piBrain · A laptop: Edge Lab · A web browser: AI Lab · Laptop → robot: EasyDetect">
+<img src="data/lineup-en.png" width="100%" alt="AI robots: piBo · PiBrain · A laptop: Edge Lab · A web browser: AI Lab · Laptop → robot: EasyDetect">
 
 ### How students learn
 
 <img src="data/flow-en.png" width="100%" alt="1 Try → 2 Teach → 3 Code → 4 Build">
 
-### Pibo · piBrain — learn AI with robots
+### piBo · PiBrain — learn AI with robots
 
-**Pibo**, a humanoid robot that moves, and **piBrain**, an AI board with a screen and buttons. Students put the AI they made onto the robot and watch it move.
+**piBo**, a humanoid robot that moves, and **PiBrain**, an AI board with a screen and buttons. Students put the AI they made onto the robot and watch it move.
 
-#### piBo Maker · piBrain Maker — built into the robot
+#### piBo Maker · PiBrain Maker — built into the robot
 
-Pibo comes with **piBo Maker** and piBrain with **piBrain Maker**. Open it from a PC browser on the same Wi-Fi.
+piBo comes with **piBo Maker** and PiBrain with **PiBrain Maker**. Open it from a PC browser on the same Wi-Fi.
 
 - **Tools** — turn on motors, sensors, the camera and the microphone one by one and see how the robot works.
 - **IDE** — block coding and Python, with image and audio playback, a file explorer and logs.
@@ -186,16 +186,16 @@ Pibo comes with **piBo Maker** and piBrain with **piBrain Maker**. Open it from 
 
 #### Software for robot classes
 
-Prepare lessons with an on-screen Pibo, then run the whole classroom of robots from one screen.
+Prepare lessons with an on-screen piBo, then run the whole classroom of robots from one screen.
 
 <table>
   <tr>
     <td width="50%" valign="top" align="center">
-      <img src="data/sw-pibolab-en.png" width="100%" alt="pibolab"><br>
+      <img src="data/sw-pibolab-en.png" width="100%" alt="Pibo Lab"><br>
       <a href="https://pibo-lab.themaker.workers.dev/"><b>Open</b></a>
     </td>
     <td width="50%" valign="top" align="center">
-      <img src="data/sw-piboconnect-en.png" width="100%" alt="piboconnect"><br>
+      <img src="data/sw-piboconnect-en.png" width="100%" alt="Pibo Connect"><br>
       <a href="https://github.com/themakerrobot/pibo-connect/releases/latest"><b>Download</b></a> · <a href="https://github.com/themakerrobot/pibo-connect/releases">Release notes</a> · <a href="https://github.com/themakerrobot/pibo-connect#readme">Guide</a>
     </td>
   </tr>
@@ -205,7 +205,7 @@ Prepare lessons with an on-screen Pibo, then run the whole classroom of robots f
 
 <table>
   <tr>
-    <td width="56%" valign="middle"><img src="data/feat-edgelab-en.png" width="100%" alt="edgelab"></td>
+    <td width="56%" valign="middle"><img src="data/feat-edgelab-en.png" width="100%" alt="Edge Lab"></td>
     <td width="44%" valign="middle">
       <p>Once installed, every AI runs inside the classroom laptop — <b>no internet needed</b>.</p>
       <ul>
@@ -223,7 +223,7 @@ Prepare lessons with an on-screen Pibo, then run the whole classroom of robots f
 
 <table>
   <tr>
-    <td width="56%" valign="middle"><img src="data/feat-ailab-en.png" width="100%" alt="ailab"></td>
+    <td width="56%" valign="middle"><img src="data/feat-ailab-en.png" width="100%" alt="AI Lab"></td>
     <td width="44%" valign="middle">
       <p><b>Nothing to install</b> — open the link and start. Photos and sounds never leave the device.</p>
       <ul>
@@ -241,14 +241,14 @@ Prepare lessons with an on-screen Pibo, then run the whole classroom of robots f
 
 <table>
   <tr>
-    <td width="56%" valign="middle"><img src="data/feat-easydetect-en.png" width="100%" alt="easydetect"></td>
+    <td width="56%" valign="middle"><img src="data/feat-easydetect-en.png" width="100%" alt="EasyDetect"></td>
     <td width="44%" valign="middle">
-      <p><b>Train and test</b> on a laptop, then move the model to <b>Pibo or piBrain</b> as a single file.</p>
+      <p><b>Train and test</b> on a laptop, then move the model to <b>piBo or PiBrain</b> as a single file.</p>
       <ul>
         <li><b>Three kinds of AI</b> — object detection, segmentation, pose (keypoints)</li>
         <li><b>Train</b> — 100–300 photos in 10–15 minutes on a laptop CPU</li>
         <li><b>Run</b> — test on photos, videos or a webcam right away</li>
-        <li><b>On the robot</b> — one ONNX file runs on Pibo and piBrain</li>
+        <li><b>On the robot</b> — one ONNX file runs on piBo and PiBrain</li>
       </ul>
       <p><a href="https://github.com/themakerrobot/easydetect-lab/releases/latest"><b>Download</b></a> · <a href="https://github.com/themakerrobot/easydetect-lab/releases">Release notes</a> · <a href="https://themakerrobot.github.io/easydetect-lab/">Guide</a> · <a href="https://themakerrobot.github.io/easydetect/try.html">Try on the web</a></p>
     </td>
@@ -259,13 +259,13 @@ Prepare lessons with an on-screen Pibo, then run the whole classroom of robots f
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU2oCmdhZ0bHcyK7MYdUHiultM6w9UE3cIt_KLppp-9Ug-ag/viewform"><img src="data/cta-en.png" width="100%" alt="Bring THE MAKER to your classroom — Request a demo"></a>
 
-### Getting started with Pibo and piBrain
+### Getting started with piBo and PiBrain
 
 Features and blocks **differ by OS version**, so use the docs for the version on your device.
 
 1. Check your device's OS version. It looks like `260624v1`.
 2. Open the same version in **[Docs and examples by version](https://themakerrobot.github.io/openpibo-guide/)**.
-3. Run blocks or Python in **piBo Maker** or **piBrain Maker** on the device.
+3. Run blocks or Python in **piBo Maker** or **PiBrain Maker** on the device.
 
 OS images and setup guides are in the [shared folder](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/IgBLHRASCkOiSaZUlrbGnfglAbEknmT2sq_XVxMRmbLLUrM?e=o2QL8Z). Supported hardware: Raspberry Pi 4B
 
