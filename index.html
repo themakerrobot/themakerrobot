@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="ko" data-lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE MAKER — 로봇으로 배우는 AI 코딩 교육</title>
+<meta name="description" content="서큘러스의 교육 브랜드 THE MAKER. AI 로봇 piBo · piBrain과 AI 교육 소프트웨어 Edge Lab · AI Lab · EasyDetect.">
+<meta property="og:title" content="THE MAKER — 로봇으로 배우는 AI 코딩 교육">
+<meta property="og:description" content="AI 로봇 piBo · piBrain과 AI 교육 소프트웨어 Edge Lab · AI Lab · EasyDetect">
+<meta property="og:image" content="data/hero.png">
+<link rel="icon" href="data/mascot.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard@1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+  --ink:#3a4150; --ink2:#5f677a; --ink3:#8a91a2;
+  --yellow:#fbc92d; --yellow-t:#fff3cf; --brown:#3d2f12;
+  --canvas:#f5f6fa; --line:#e3e6ee; --bg:#ffffff;
+  --blue:#2453b8; --blue-t:#e6efff; --green:#1f7a45; --green-t:#e7f5ec;
+  --max:1240px;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;
+  color:var(--ink);background:var(--bg);line-height:1.55;word-break:keep-all;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+
+/* 언어: html[data-lang] 에 맞는 것만 보인다 */
+html[data-lang="ko"] [lang="en"]:not(html), html[data-lang="en"] [lang="ko"]:not(html){display:none !important}
+
+/* 상단 바 */
+.top{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.88);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;gap:20px;height:64px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;letter-spacing:-.3px;text-decoration:none;color:var(--brown)}
+.brand img{width:34px;height:34px;object-fit:contain}
+.brand small{font-weight:600;font-size:13px;color:var(--ink3);letter-spacing:0}
+.nav{display:flex;gap:4px;margin-left:auto}
+.nav a{font-weight:600;font-size:15px;color:var(--ink2);text-decoration:none;padding:8px 12px;border-radius:10px}
+.nav a:hover{background:var(--canvas);color:var(--ink)}
+.lang{display:inline-flex;border-radius:10px;background:var(--canvas);padding:3px}
+.lang button{font:inherit;font-weight:700;font-size:13px;border:0;background:transparent;color:var(--ink3);padding:6px 10px;border-radius:8px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(30,40,60,.15)}
+
+/* 버튼 */
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:16px;text-decoration:none;padding:12px 20px;border-radius:14px;white-space:nowrap;transition:transform .12s ease, box-shadow .12s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn svg{width:18px;height:18px}
+.btn.pri{background:var(--yellow);color:var(--brown);box-shadow:0 6px 16px rgba(251,201,45,.35)}
+.btn.dark{background:var(--brown);color:#fff}
+.btn.sec{background:#fff;color:var(--ink);box-shadow:inset 0 0 0 2px var(--line)}
+.btn.sm{font-size:14px;padding:9px 14px;border-radius:11px}
+
+/* 히어로 */
+.hero{background:var(--canvas)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;align-items:center;gap:24px;min-height:560px;padding-top:56px;padding-bottom:56px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:14px;color:var(--brown);background:var(--yellow);padding:6px 14px;border-radius:999px}
+.eyebrow i{width:7px;height:7px;border-radius:50%;background:var(--brown)}
+.hero h1{font-weight:800;font-size:clamp(40px,5.4vw,68px);line-height:1.12;letter-spacing:-2px;margin-top:22px}
+.hero h1 em{font-style:normal;background:linear-gradient(transparent 62%,#fde68a 62%)}
+.hero p.sub{font-size:clamp(17px,1.7vw,20px);color:var(--ink2);margin-top:18px;max-width:34em}
+.hero .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:30px}
+.hero-art{align-self:stretch;margin:-56px -24px -56px 0;background:url(data/hero.png) right center/auto 100% no-repeat;min-height:420px}
+
+/* 섹션 공통 */
+section.s{padding:88px 0}
+section.s.alt{background:var(--canvas)}
+.kicker{font-weight:800;font-size:14px;letter-spacing:.6px;color:#b7860b;text-transform:uppercase}
+h2.t{font-weight:800;font-size:clamp(28px,3.2vw,40px);letter-spacing:-1.2px;line-height:1.2;margin-top:8px}
+p.lead{font-size:18px;color:var(--ink2);margin-top:12px;max-width:44em}
+.head{margin-bottom:36px}
+
+/* 가치 4가지 */
+.why{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.tile{background:#fff;border-radius:20px;box-shadow:inset 0 0 0 1.5px var(--line);padding:26px 24px}
+.ic{width:52px;height:52px;border-radius:15px;background:var(--yellow-t);color:var(--brown);display:flex;align-items:center;justify-content:center}
+.ic svg{width:28px;height:28px}
+.tile h3{font-weight:800;font-size:21px;letter-spacing:-.5px;margin-top:18px;line-height:1.3}
+.tile p{font-size:15.5px;color:var(--ink2);margin-top:8px}
+
+/* 비교표 */
+.mx{background:#fff;border-radius:22px;box-shadow:inset 0 0 0 1.5px var(--line);overflow:auto}
+.mx table{width:100%;min-width:760px;border-collapse:collapse}
+.mx thead th{background:var(--canvas);padding:22px 12px 20px;vertical-align:top;text-align:center}
+.mx thead th:first-child{background:#fff;width:24%}
+.mx .need{display:inline-block;font-weight:700;font-size:13px;color:var(--brown);background:var(--yellow-t);padding:4px 10px;border-radius:999px}
+.mx .nm{display:block;font-weight:800;font-size:20px;letter-spacing:-.4px;margin-top:8px}
+.mx .one{display:block;font-weight:500;font-size:14px;color:var(--ink2);margin-top:4px}
+.mx tbody th{text-align:left;padding:14px 22px;font-weight:700;font-size:16px}
+.mx tbody th small{display:block;font-weight:500;font-size:13px;color:var(--ink3)}
+.mx tbody td{text-align:center;padding:14px 8px}
+.mx tbody tr+tr th,.mx tbody tr+tr td,.mx tbody tr:first-child th,.mx tbody tr:first-child td{border-top:1px solid var(--line)}
+.yes{display:inline-flex;width:32px;height:32px;border-radius:50%;background:var(--green-t);color:var(--green);align-items:center;justify-content:center}
+.yes svg{width:18px;height:18px}
+.no{display:inline-block;width:14px;height:2px;background:#d6dae3;vertical-align:middle}
+.beta{display:inline-block;vertical-align:middle;margin-left:6px;font-weight:700;font-size:11px;letter-spacing:.3px;color:var(--ink3);border:1.5px solid var(--line);border-radius:999px;padding:1px 7px;line-height:1.4}
+
+/* 로봇 */
+.devices{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.devices img{border-radius:24px}
+.sub-h{font-weight:800;font-size:24px;letter-spacing:-.6px;margin:56px 0 8px}
+.sub-p{color:var(--ink2);font-size:16.5px}
+ul.dots{margin:14px 0 0;padding-left:20px;color:var(--ink2)}
+ul.dots li{margin:4px 0}
+ul.dots b{color:var(--ink)}
+.shots{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.shots img{border-radius:10px;box-shadow:0 0 0 1px var(--line)}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:20px}
+.card{display:flex;flex-direction:column;gap:12px}
+.card img{border-radius:22px}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+
+/* 제품 행 */
+.feat{display:grid;grid-template-columns:1.15fr 1fr;gap:44px;align-items:center}
+.feat + .feat{margin-top:80px}
+.feat.rev .media{order:2}
+.feat .media img{border-radius:22px}
+.tags{display:flex;flex-wrap:wrap;gap:8px}
+.tag{font-weight:700;font-size:13px;padding:5px 11px;border-radius:999px}
+.tag.web{background:var(--blue-t);color:var(--blue)}
+.tag.pc{background:var(--yellow-t);color:#7a5a06}
+.tag.off{background:var(--green-t);color:var(--green)}
+.feat h3{font-weight:800;font-size:clamp(28px,3vw,36px);letter-spacing:-1px;margin-top:14px}
+.feat .tl{font-weight:700;font-size:19px;margin-top:6px}
+.feat p.d{color:var(--ink2);font-size:16.5px;margin-top:12px}
+.feat .links{margin-top:22px}
+
+/* 도입 배너 */
+.cta-band{background:var(--yellow);border-radius:28px;position:relative;overflow:hidden;padding:56px 56px;display:flex;align-items:center;gap:24px}
+.cta-band h2{font-weight:800;font-size:clamp(28px,3.4vw,44px);letter-spacing:-1.4px;color:var(--brown);line-height:1.15}
+.cta-band p{color:rgba(61,47,18,.8);font-weight:600;font-size:18px;margin-top:10px}
+.cta-band .links{margin-top:24px}
+.cta-band .m{position:absolute;right:56px;bottom:-30px;width:230px}
+.cta-band .blob{position:absolute;right:-80px;top:-120px;width:460px;height:460px;border-radius:50%;background:rgba(255,255,255,.35)}
+.cta-band .txt{position:relative;z-index:1;max-width:640px}
+
+/* 시작하기 */
+ol.steps{counter-reset:s;list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+ol.steps li{counter-increment:s;background:#fff;border-radius:18px;box-shadow:inset 0 0 0 1.5px var(--line);padding:22px}
+ol.steps li::before{content:counter(s);display:inline-flex;width:34px;height:34px;border-radius:50%;background:var(--yellow);color:var(--brown);font-weight:800;align-items:center;justify-content:center;margin-bottom:12px}
+ol.steps code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92em;background:var(--canvas);padding:1px 6px;border-radius:6px}
+.note{margin-top:18px;color:var(--ink2);font-size:15px}
+
+footer{border-top:1px solid var(--line);padding:36px 0;color:var(--ink2);font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 24px;align-items:center}
+footer a{color:var(--ink);font-weight:600;text-decoration:none}
+footer a:hover{text-decoration:underline}
+
+@media (max-width:960px){
+  .nav{display:none}
+  .hero .wrap{grid-template-columns:1fr;min-height:0;padding-top:48px}
+  .hero-art{min-height:300px;margin:8px -24px -56px;background-position:right center}
+  .why{grid-template-columns:1fr 1fr}
+  .feat,.feat.rev{grid-template-columns:1fr;gap:22px}
+  .feat.rev .media{order:0}
+  .pair,.devices{grid-template-columns:1fr}
+  ol.steps{grid-template-columns:1fr}
+  .cta-band{padding:40px 28px 200px}
+  .cta-band .m{right:50%;transform:translateX(50%);width:180px}
+  section.s{padding:64px 0}
+}
+@media (max-width:560px){
+  .why{grid-template-columns:1fr}
+  .shots{grid-template-columns:1fr 1fr}
+  .top .btn{display:none}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#"><img src="data/mascot.png" alt="">THE MAKER <small>by circulus</small></a>
+    <nav class="nav">
+      <a href="#why"><span lang="ko">왜 THE MAKER</span><span lang="en">Why</span></a>
+      <a href="#compare"><span lang="ko">비교</span><span lang="en">Compare</span></a>
+      <a href="#robots"><span lang="ko">AI 로봇</span><span lang="en">Robots</span></a>
+      <a href="#software"><span lang="ko">소프트웨어</span><span lang="en">Software</span></a>
+      <a href="#start"><span lang="ko">시작하기</span><span lang="en">Get started</span></a>
+    </nav>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-set="ko" aria-pressed="true">한국어</button>
+      <button type="button" data-set="en" aria-pressed="false">EN</button>
+    </div>
+    <a class="btn pri sm" href="https://docs.google.com/forms/d/e/1FAIpQLSdU2oCmdhZ0bHcyK7MYdUHiultM6w9UE3cIt_KLppp-9Ug-ag/viewform"><span lang="ko">도입 문의</span><span lang="en">Request a demo</span></a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="eyebrow"><i></i>THE MAKER · circulus</span>
+      <h1 lang="ko">로봇으로 배우는<br><em>AI 코딩 교육</em></h1>
+      <h1 lang="en">AI coding education<br><em>with robots</em></h1>
+      <p class="sub" lang="ko">서큘러스의 교육 브랜드 THE MAKER는 AI 로봇 <b>piBo · piBrain</b>과 AI 교육 소프트웨어 <b>Edge Lab · AI Lab · EasyDetect</b>를 만듭니다. 하나하나가 완결된 수업 도구라, 교실 환경과 수업 목표에 맞게 골라 쓰면 됩니다.</p>
+      <p class="sub" lang="en">THE MAKER, the education brand of Circulus, makes the AI robots <b>piBo · piBrain</b> and the AI education software <b>Edge Lab · AI Lab · EasyDetect</b>. Each is a complete teaching tool, so pick what fits your classroom.</p>
+      <div class="cta">
+        <a class="btn pri" href="https://docs.google.com/forms/d/e/1FAIpQLSdU2oCmdhZ0bHcyK7MYdUHiultM6w9UE3cIt_KLppp-9Ug-ag/viewform"><span lang="ko">도입 문의</span><span lang="en">Request a demo</span></a>
+        <a class="btn sec" href="mailto:info@circul.us"><span lang="ko">교육 문의</span><span lang="en">Contact us</span></a>
+        <a class="btn sec" href="https://themakerrobot.github.io/openpibo-guide/"><span lang="ko">버전별 문서·예제</span><span lang="en">Docs by version</span></a>
+      </div>
+    </div>
+    <div class="hero-art" role="img" aria-label="piBo, piBrain"></div>
+  </div>
+</section>
+
+<section class="s" id="why">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">Why THE MAKER</div>
+      <h2 class="t" lang="ko">만지고, 가르치고, 코딩하며 배우는 AI</h2>
+      <h2 class="t" lang="en">Learn AI by touching, teaching and coding it</h2>
+    </div>
+    <div class="why">
+      <div class="tile"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 2l20 20"/><path d="M8.5 16.5a5 5 0 0 1 7 0"/><path d="M2 8.8a15 15 0 0 1 4.2-2.6"/><path d="M10.7 5.1A15 15 0 0 1 22 8.8"/><path d="M5 12.6a10 10 0 0 1 5.2-2.8"/><path d="M16.9 11.1a10 10 0 0 1 2.1 1.5"/><circle cx="12" cy="20" r="1"/></svg></div>
+        <h3 lang="ko">인터넷이 끊겨도 수업은 계속</h3><h3 lang="en">Class goes on, even offline</h3>
+        <p lang="ko">AI가 교실 PC 안에서 돌아가 사진과 목소리가 밖으로 나가지 않습니다</p><p lang="en">AI runs on the classroom PC, so photos and voices never leave it</p></div>
+      <div class="tile"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M15 8l-2 4 2 4"/><path d="M19 8l2 4-2 4"/></svg></div>
+        <h3 lang="ko">블록에서 파이썬까지 한 흐름</h3><h3 lang="en">Blocks to Python, one path</h3>
+        <p lang="ko">블록으로 시작해 같은 화면에서 파이썬으로 넘어갑니다</p><p lang="en">Start with blocks and move to Python on the same screen</p></div>
+      <div class="tile"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 9h20"/></svg></div>
+        <h3 lang="ko">로봇이 없어도 바로 시작</h3><h3 lang="en">Start now, no robot needed</h3>
+        <p lang="ko">AI Lab은 웹 브라우저, Edge Lab은 노트북만 있으면 됩니다</p><p lang="en">AI Lab needs just a browser, Edge Lab just a laptop</p></div>
+      <div class="tile"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.5"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.5"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.5"/></svg></div>
+        <h3 lang="ko">따로 써도, 함께 써도</h3><h3 lang="en">Use one, or use them all</h3>
+        <p lang="ko">제품마다 하나로 완결된 수업 도구라 교실 환경에 맞게 골라 씁니다</p><p lang="en">Each product is a complete teaching tool, so pick what fits your classroom</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="s alt" id="compare">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">Compare</div>
+      <h2 class="t" lang="ko">무엇으로, 무엇을 배우나요</h2>
+      <h2 class="t" lang="en">What you need, what you learn</h2>
+    </div>
+    <div class="mx" id="mx"></div>
+  </div>
+</section>
+
+<section class="s" id="robots">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">AI Robots</div>
+      <h2 class="t" lang="ko">piBo · piBrain — 로봇으로 배우는 AI</h2>
+      <h2 class="t" lang="en">piBo · piBrain — learn AI with robots</h2>
+      <p class="lead" lang="ko">움직이는 휴머노이드 <b>파이보</b>, 화면과 버튼이 달린 AI 보드 <b>파이브레인</b>. 로봇의 카메라와 센서로 AI를 체험하고 가르치며, 블록과 파이썬으로 직접 코딩합니다.</p>
+      <p class="lead" lang="en"><b>piBo</b>, a humanoid robot that moves, and <b>piBrain</b>, an AI board with a screen and buttons. Students try and teach AI with the robot's camera and sensors, and code it with blocks and Python.</p>
+    </div>
+    <div class="devices">
+      <img src="data/card-pibo.png" alt="파이보 piBo — 움직이는 휴머노이드 AI 로봇">
+      <img src="data/card-pibrain.png" alt="파이브레인 piBrain — 화면과 버튼이 달린 AI 보드">
+    </div>
+
+    <h3 class="sub-h">piBo Maker · piBrain Maker</h3>
+    <p class="sub-p" lang="ko">로봇 안에 들어 있는 개발 환경입니다. 같은 와이파이에 연결한 PC 브라우저로 접속해서 씁니다.</p>
+    <p class="sub-p" lang="en">The development environment built into the robot. Open it from a PC browser on the same Wi-Fi.</p>
+    <ul class="dots" lang="ko">
+      <li><b>Tools</b> — 모터, 센서, 카메라, 마이크를 하나씩 켜 보고 값을 확인하며 로봇의 작동 원리를 익힙니다.</li>
+      <li><b>IDE</b> — 블록 코딩과 파이썬을 지원합니다. 이미지·오디오 재생, 파일 탐색기, 로그 보기가 함께 있습니다.</li>
+    </ul>
+    <ul class="dots" lang="en">
+      <li><b>Tools</b> — turn on motors, sensors, the camera and the microphone one by one and see how the robot works.</li>
+      <li><b>IDE</b> — block coding and Python, with image and audio playback, a file explorer and logs.</li>
+    </ul>
+    <div class="shots">
+      <img src="data/tools1.png" alt="Tools" loading="lazy"><img src="data/tools2.png" alt="Tools" loading="lazy"><img src="data/tools3.png" alt="Tools" loading="lazy">
+      <img src="data/ide1.png" alt="IDE" loading="lazy"><img src="data/ide2.png" alt="IDE" loading="lazy"><img src="data/ide3.png" alt="IDE" loading="lazy">
+    </div>
+
+    <h3 class="sub-h"><span lang="ko">로봇 수업을 돕는 소프트웨어</span><span lang="en">Software for robot classes</span></h3>
+    <p class="sub-p" lang="ko">수업 준비는 화면 속 파이보로, 수업 당일에는 교실의 로봇을 한 화면에서.</p>
+    <p class="sub-p" lang="en">Prepare lessons with an on-screen piBo, then run the whole classroom of robots from one screen.</p>
+    <div class="pair">
+      <div class="card">
+        <img lang="ko" src="data/sw-pibolab.png" alt="Pibo Lab" loading="lazy"><img lang="en" src="data/sw-pibolab-en.png" alt="Pibo Lab" loading="lazy">
+        <div class="links"><a class="btn pri sm" href="https://pibo-lab.themaker.workers.dev/"><span lang="ko">바로 쓰기</span><span lang="en">Open</span></a></div>
+      </div>
+      <div class="card">
+        <img lang="ko" src="data/sw-piboconnect.png" alt="Pibo Connect" loading="lazy"><img lang="en" src="data/sw-piboconnect-en.png" alt="Pibo Connect" loading="lazy">
+        <div class="links">
+          <a class="btn pri sm" href="https://github.com/themakerrobot/pibo-connect/releases/latest"><span lang="ko">다운로드</span><span lang="en">Download</span></a>
+          <a class="btn sec sm" href="https://github.com/themakerrobot/pibo-connect/releases"><span lang="ko">릴리스 노트</span><span lang="en">Release notes</span></a>
+          <a class="btn sec sm" href="https://github.com/themakerrobot/pibo-connect#readme"><span lang="ko">가이드</span><span lang="en">Guide</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s alt" id="software">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">AI Education Software</div>
+      <h2 class="t" lang="ko">로봇이 없어도, 인터넷이 없어도 배우는 AI</h2>
+      <h2 class="t" lang="en">Learn AI without a robot, even without the internet</h2>
+    </div>
+
+    <div class="feat">
+      <div class="media"><img lang="ko" src="data/feat-edgelab-ko.png" alt="Edge Lab" loading="lazy"><img lang="en" src="data/feat-edgelab-en.png" alt="Edge Lab" loading="lazy"></div>
+      <div>
+        <div class="tags"><span class="tag pc">Windows</span><span class="tag off" lang="ko">인터넷 없이</span><span class="tag off" lang="en">Offline</span></div>
+        <h3>Edge Lab<span class="beta">beta</span></h3>
+        <div class="tl" lang="ko">노트북 한 대로 하는 AI 수업</div><div class="tl" lang="en">An AI class on one laptop</div>
+        <p class="d" lang="ko">설치하고 나면 <b>인터넷 없이</b> 교실 노트북 안에서 모든 AI가 돌아갑니다.</p>
+        <p class="d" lang="en">Once installed, every AI runs inside the classroom laptop — <b>no internet needed</b>.</p>
+        <ul class="dots" lang="ko"><li><b>체험하기</b> — 얼굴·자세·손·사물·글자 등 AI 16가지</li><li><b>가르치기</b> — 내 사진과 소리로 직접 AI를 가르치기</li><li><b>코딩</b> — 블록과 파이썬으로 AI 부르기</li><li>Intel AI PC의 CPU·GPU·NPU로 실행, 계정·요금 없음</li></ul>
+        <ul class="dots" lang="en"><li><b>Try</b> — 16 kinds of AI: faces, poses, hands, objects, text and more</li><li><b>Teach</b> — teach the AI with your own photos and sounds</li><li><b>Code</b> — call the AI from blocks and Python</li><li>Runs on the CPU, GPU and NPU of an Intel AI PC. No account, no fees</li></ul>
+        <div class="links">
+          <a class="btn pri sm" href="https://github.com/themakerrobot/edge-lab/releases/latest"><span lang="ko">다운로드</span><span lang="en">Download</span></a>
+          <a class="btn sec sm" href="https://github.com/themakerrobot/edge-lab/releases"><span lang="ko">릴리스 노트</span><span lang="en">Release notes</span></a>
+          <a class="btn sec sm" lang="ko" href="https://github.com/themakerrobot/edge-lab/blob/main/docs/MANUAL.md">가이드</a>
+          <a class="btn sec sm" lang="en" href="https://github.com/themakerrobot/edge-lab/blob/main/docs/MANUAL.md#edge-lab-user-guide">Guide</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="feat rev">
+      <div class="media"><img lang="ko" src="data/feat-ailab-ko.png" alt="AI Lab" loading="lazy"><img lang="en" src="data/feat-ailab-en.png" alt="AI Lab" loading="lazy"></div>
+      <div>
+        <div class="tags"><span class="tag web" lang="ko">웹</span><span class="tag web" lang="en">Web</span><span class="tag off" lang="ko">설치 없음</span><span class="tag off" lang="en">No install</span></div>
+        <h3>AI Lab<span class="beta">beta</span></h3>
+        <div class="tl" lang="ko">웹 브라우저만으로 하는 AI 교육</div><div class="tl" lang="en">AI education in a web browser</div>
+        <p class="d" lang="ko"><b>설치 없이</b> 링크만 열면 시작합니다. 사진과 소리는 기기 밖으로 나가지 않습니다.</p>
+        <p class="d" lang="en"><b>Nothing to install</b> — open the link and start. Photos and sounds never leave the device.</p>
+        <ul class="dots" lang="ko"><li><b>체험하기</b> — 손·얼굴·몸 인식, 소리 구분, 배경 바꾸기</li><li><b>가르치기</b> — 예시를 보여 주며 내 AI 만들기</li><li><b>스스로 배우기</b> — 점수로 배우는 청소 로봇·진화하는 생물</li><li><b>만들기</b> — 순서도 → 블록 → 파이썬으로 작품 완성</li></ul>
+        <ul class="dots" lang="en"><li><b>Try</b> — hand, face and body tracking, sounds, background swap</li><li><b>Teach</b> — build your own AI by showing it examples</li><li><b>Learn by itself</b> — a cleaning robot and creatures that learn from scores</li><li><b>Build</b> — flowcharts → blocks → Python</li></ul>
+        <div class="links">
+          <a class="btn pri sm" href="https://themakerrobot.github.io/ai-lab/"><span lang="ko">바로 쓰기</span><span lang="en">Open</span></a>
+          <a class="btn sec sm" href="https://themakerrobot.github.io/ai-lab/guide/"><span lang="ko">가이드</span><span lang="en">Guide</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="feat">
+      <div class="media"><img lang="ko" src="data/feat-easydetect-ko.png" alt="EasyDetect" loading="lazy"><img lang="en" src="data/feat-easydetect-en.png" alt="EasyDetect" loading="lazy"></div>
+      <div>
+        <div class="tags"><span class="tag pc">Windows</span><span class="tag off" lang="ko">인터넷 없이</span><span class="tag off" lang="en">Offline</span></div>
+        <h3>EasyDetect<span class="beta">beta</span></h3>
+        <div class="tl" lang="ko">내 사진으로 만드는 사물 인식 AI</div><div class="tl" lang="en">Object detection AI from your own photos</div>
+        <p class="d" lang="ko">사진에 상자를 그려 노트북에서 <b>학습하고 시험한 뒤</b>, 만든 모델을 <b>어디서든</b> 씁니다.</p>
+        <p class="d" lang="en">Draw boxes on your photos, <b>train and test</b> on a laptop, then use the model <b>anywhere</b>.</p>
+        <ul class="dots" lang="ko"><li><b>3가지 AI</b> — 사물 인식(상자) · 윤곽 분할 · 자세(키포인트)</li><li><b>학습</b> — 노트북 CPU로 사진 100~300장을 10~15분 안에</li><li><b>추론</b> — 사진·영상·웹캠으로 바로 시험</li><li><b>어디서든 실행</b> — ONNX·OpenVINO 파일로 PC, 인텔 NPU, 라즈베리파이, piBo·piBrain에서</li></ul>
+        <ul class="dots" lang="en"><li><b>Three kinds of AI</b> — object detection, segmentation, pose (keypoints)</li><li><b>Train</b> — 100–300 photos in 10–15 minutes on a laptop CPU</li><li><b>Run</b> — test on photos, videos or a webcam right away</li><li><b>Runs anywhere</b> — ONNX or OpenVINO files for a PC, an Intel NPU, a Raspberry Pi, piBo and piBrain</li></ul>
+        <div class="links">
+          <a class="btn pri sm" href="https://github.com/themakerrobot/easydetect-lab/releases/latest"><span lang="ko">다운로드</span><span lang="en">Download</span></a>
+          <a class="btn sec sm" href="https://github.com/themakerrobot/easydetect-lab/releases"><span lang="ko">릴리스 노트</span><span lang="en">Release notes</span></a>
+          <a class="btn sec sm" href="https://themakerrobot.github.io/easydetect-lab/"><span lang="ko">가이드</span><span lang="en">Guide</span></a>
+          <a class="btn sec sm" href="https://themakerrobot.github.io/easydetect/try.html"><span lang="ko">웹 체험</span><span lang="en">Try on the web</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s">
+  <div class="wrap">
+    <div class="cta-band">
+      <div class="blob"></div>
+      <div class="txt">
+        <h2 lang="ko">우리 교실에 THE MAKER를</h2><h2 lang="en">Bring THE MAKER to your classroom</h2>
+        <p lang="ko">도입 문의를 남겨 주시면 담당자가 연락드립니다</p><p lang="en">Leave a request and our team will get back to you</p>
+        <div class="links">
+          <a class="btn dark" href="https://docs.google.com/forms/d/e/1FAIpQLSdU2oCmdhZ0bHcyK7MYdUHiultM6w9UE3cIt_KLppp-9Ug-ag/viewform"><span lang="ko">도입 문의하기</span><span lang="en">Request a demo</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></a>
+          <a class="btn sec" href="mailto:info@circul.us">info@circul.us</a>
+        </div>
+      </div>
+      <img class="m" src="data/mascot.png" alt="">
+    </div>
+  </div>
+</section>
+
+<section class="s alt" id="start">
+  <div class="wrap">
+    <div class="head">
+      <div class="kicker">Get started</div>
+      <h2 class="t" lang="ko">piBo · piBrain 시작하기</h2>
+      <h2 class="t" lang="en">Getting started with piBo and piBrain</h2>
+      <p class="lead" lang="ko"><b>운영체제(OS) 버전마다 쓸 수 있는 기능과 블록이 다릅니다.</b> 기기와 같은 버전의 문서와 예제를 보세요.</p>
+      <p class="lead" lang="en">Features and blocks <b>differ by OS version</b>, so use the docs for the version on your device.</p>
+    </div>
+    <ol class="steps" lang="ko">
+      <li>기기의 OS 버전을 확인합니다. 버전은 <code>260624v1</code>처럼 적혀 있습니다.</li>
+      <li><a href="https://themakerrobot.github.io/openpibo-guide/"><b>버전별 문서·예제</b></a>에서 기기와 같은 버전을 엽니다.</li>
+      <li>기기 안의 <b>piBo Maker · piBrain Maker</b>에서 블록이나 파이썬으로 실행합니다.</li>
+    </ol>
+    <ol class="steps" lang="en">
+      <li>Check your device's OS version. It looks like <code>260624v1</code>.</li>
+      <li>Open the same version in <a href="https://themakerrobot.github.io/openpibo-guide/"><b>Docs and examples by version</b></a>.</li>
+      <li>Run blocks or Python in <b>piBo Maker</b> or <b>piBrain Maker</b> on the device.</li>
+    </ol>
+    <p class="note" lang="ko">OS 설치 이미지와 사용 가이드는 <a href="https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/IgBLHRASCkOiSaZUlrbGnfglAbEknmT2sq_XVxMRmbLLUrM?e=o2QL8Z">공유 폴더</a>에 있습니다. 지원 하드웨어: Raspberry Pi 4B</p>
+    <p class="note" lang="en">OS images and setup guides are in the <a href="https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/IgBLHRASCkOiSaZUlrbGnfglAbEknmT2sq_XVxMRmbLLUrM?e=o2QL8Z">shared folder</a>. Supported hardware: Raspberry Pi 4B</p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <b>THE MAKER</b><span>by Circulus</span>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU2oCmdhZ0bHcyK7MYdUHiultM6w9UE3cIt_KLppp-9Ug-ag/viewform"><span lang="ko">도입 문의</span><span lang="en">Request a demo</span></a>
+    <a href="mailto:info@circul.us">info@circul.us</a>
+    <a href="http://pibo.circul.us">pibo.circul.us</a>
+    <a href="https://github.com/themakerrobot">GitHub</a>
+  </div>
+</footer>
+
+<script>
+// 비교표 (README 비교표 이미지와 같은 내용)
+(function () {
+  var ok = '<span class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>';
+  var no = '<span class="no"></span>';
+  var cols = [
+    ['AI 로봇', 'AI robots', 'piBo · piBrain', '로봇 기기로 배우는 AI 코딩', 'AI coding with real robots', 0],
+    ['노트북만', 'A laptop', 'Edge Lab', '노트북 한 대로 하는 AI 수업', 'An AI class on one laptop', 1],
+    ['웹 브라우저만', 'A web browser', 'AI Lab', '설치 없이 하는 AI 교육', 'AI education, nothing to install', 1],
+    ['노트북', 'A laptop', 'EasyDetect', '내 사진으로 만드는 사물 인식 AI', 'Object detection AI from your photos', 1]
+  ];
+  var rows = [
+    ['AI 체험', 'Try AI', '얼굴·사물·손·자세 인식 등', 'faces, objects, hands, poses…', [1, 1, 1, 0]],
+    ['AI 가르치기', 'Teach AI', '내 사진·소리로 분류 AI 만들기', 'classifiers from your photos and sounds', [1, 1, 1, 0]],
+    ['사물 인식 모델 학습', 'Train detection models', '상자 · 윤곽 분할 · 자세', 'boxes · segmentation · pose', [0, 0, 0, 1]],
+    ['블록 · 파이썬 코딩', 'Blocks · Python', '', '', [1, 1, 1, 0]],
+    ['스스로 배우는 AI', 'AI that learns by itself', '점수로 배우는 강화학습', 'reinforcement learning with scores', [0, 0, 1, 0]],
+    ['로봇 하드웨어', 'Robot hardware', '모터 · 카메라 · 센서 · 화면', 'motors · camera · sensors · screen', [1, 0, 0, 0]]
+  ];
+  function both(ko, en) { return '<span lang="ko">' + ko + '</span><span lang="en">' + en + '</span>'; }
+  var h = '<table><thead><tr><th></th>';
+  cols.forEach(function (c) {
+    h += '<th><span class="need">' + both(c[0], c[1]) + '</span><span class="nm">' + c[2] + (c[5] ? '<span class="beta">beta</span>' : '') + '</span><span class="one">' + both(c[3], c[4]) + '</span></th>';
+  });
+  h += '</tr></thead><tbody>';
+  rows.forEach(function (r) {
+    h += '<tr><th>' + both(r[0], r[1]) + (r[2] ? '<small>' + both(r[2], r[3]) + '</small>' : '') + '</th>';
+    r[4].forEach(function (v) { h += '<td>' + (v ? ok : no) + '</td>'; });
+    h += '</tr>';
+  });
+  document.getElementById('mx').innerHTML = h + '</tbody></table>';
+})();
+
+// 한국어 / English
+(function () {
+  var root = document.documentElement;
+  function set(l) {
+    root.setAttribute('data-lang', l);
+    root.lang = l;
+    document.querySelectorAll('.lang button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.set === l)); });
+    try { localStorage.setItem('themaker-lang', l); } catch (e) {}
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('themaker-lang'); } catch (e) {}
+  var q = (location.search.match(/[?&]lang=(ko|en)\b/) || [])[1];
+  set(q || saved || 'ko');
+  document.querySelectorAll('.lang button').forEach(function (b) { b.onclick = function () { set(b.dataset.set); }; });
+})();
+</script>
+</body>
+</html>
