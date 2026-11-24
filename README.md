@@ -7,7 +7,7 @@
   <a href="http://pibo.circul.us"><img src="data/btn-home.png" height="44" alt="홈페이지"></a>
 </p>
 
-<p align="center"><b>한국어</b> · <a href="#english">English</a></p>
+<p align="center"><b><a href="https://themakerrobot.github.io/themakerrobot/">🌐 웹사이트로 보기 · View website</a></b><br><b>한국어</b> · <a href="#english">English</a></p>
 
 <h3 align="center">만지고, 가르치고, 코딩하며 배우는 AI</h3>
 
