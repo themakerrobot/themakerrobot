@@ -34,12 +34,12 @@
 
 <p align="center">
   <img src="data/card-pibo.png" width="49%" alt="파이보 (piBo) — 움직이는 휴머노이드 AI 로봇">
-  <img src="data/card-pibrain.png" width="49%" alt="파이브레인 (PiBrain) — 화면과 버튼이 달린 AI 보드">
+  <img src="data/card-pibrain.png" width="49%" alt="파이브레인 (piBrain) — 화면과 버튼이 달린 AI 보드">
 </p>
 
-### piBo Maker · PiBrain Maker — 로봇 안에 들어 있는 개발 환경
+### piBo Maker · piBrain Maker — 로봇 안에 들어 있는 개발 환경
 
-파이보에는 **piBo Maker**, 파이브레인에는 **PiBrain Maker**가 들어 있습니다. 같은 와이파이에 연결한 PC 브라우저로 접속해서 씁니다.
+파이보에는 **piBo Maker**, 파이브레인에는 **piBrain Maker**가 들어 있습니다. 같은 와이파이에 연결한 PC 브라우저로 접속해서 씁니다.
 
 - **Tools** — 모터, 센서, 카메라, 마이크를 하나씩 켜 보고 값을 확인하며 로봇의 작동 원리를 익힙니다.
 - **IDE** — 블록 코딩과 파이썬을 지원합니다. 이미지·오디오 재생, 파일 탐색기, 로그 보기가 함께 있습니다.
@@ -135,7 +135,7 @@
 
 1. 기기의 OS 버전을 확인합니다. 버전은 `260624v1`처럼 적혀 있습니다.
 2. **[버전별 문서·예제](https://themakerrobot.github.io/openpibo-guide/)** 에서 기기와 같은 버전을 엽니다.
-3. 기기 안의 **piBo Maker · PiBrain Maker**에서 블록이나 파이썬으로 실행합니다.
+3. 기기 안의 **piBo Maker · piBrain Maker**에서 블록이나 파이썬으로 실행합니다.
 
 OS 설치 이미지와 사용 가이드는 [공유 폴더](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/IgBLHRASCkOiSaZUlrbGnfglAbEknmT2sq_XVxMRmbLLUrM?e=o2QL8Z)에 있습니다. 지원 하드웨어: Raspberry Pi 4B
 
@@ -152,7 +152,7 @@ OS 설치 이미지와 사용 가이드는 [공유 폴더](https://circulusworks
 <h3 align="center">Learn AI by touching, teaching and coding it</h3>
 
 <p align="center">
-  <b>THE MAKER</b>, the education brand of Circulus, teaches AI in one path with the AI robots <b>piBo</b> and <b>PiBrain</b><br>
+  <b>THE MAKER</b>, the education brand of Circulus, teaches AI in one path with the AI robots <b>piBo</b> and <b>piBrain</b><br>
   and our <b>AI education software</b> — from hands-on play, through blocks and Python, to your own AI moving a robot.
 </p>
 
@@ -162,19 +162,19 @@ OS 설치 이미지와 사용 가이드는 [공유 폴더](https://circulusworks
 
 ### Pick what fits your classroom
 
-<img src="data/lineup-en.png" width="100%" alt="AI robots: piBo · PiBrain · A laptop: Edge Lab · A web browser: AI Lab · Laptop → robot: EasyDetect">
+<img src="data/lineup-en.png" width="100%" alt="AI robots: piBo · piBrain · A laptop: Edge Lab · A web browser: AI Lab · Laptop → robot: EasyDetect">
 
 ### How students learn
 
 <img src="data/flow-en.png" width="100%" alt="1 Try → 2 Teach → 3 Code → 4 Build">
 
-### piBo · PiBrain — learn AI with robots
+### piBo · piBrain — learn AI with robots
 
-**piBo**, a humanoid robot that moves, and **PiBrain**, an AI board with a screen and buttons. Students put the AI they made onto the robot and watch it move.
+**piBo**, a humanoid robot that moves, and **piBrain**, an AI board with a screen and buttons. Students put the AI they made onto the robot and watch it move.
 
-#### piBo Maker · PiBrain Maker — built into the robot
+#### piBo Maker · piBrain Maker — built into the robot
 
-piBo comes with **piBo Maker** and PiBrain with **PiBrain Maker**. Open it from a PC browser on the same Wi-Fi.
+piBo comes with **piBo Maker** and piBrain with **piBrain Maker**. Open it from a PC browser on the same Wi-Fi.
 
 - **Tools** — turn on motors, sensors, the camera and the microphone one by one and see how the robot works.
 - **IDE** — block coding and Python, with image and audio playback, a file explorer and logs.
@@ -243,12 +243,12 @@ Prepare lessons with an on-screen piBo, then run the whole classroom of robots f
   <tr>
     <td width="56%" valign="middle"><img src="data/feat-easydetect-en.png" width="100%" alt="EasyDetect"></td>
     <td width="44%" valign="middle">
-      <p><b>Train and test</b> on a laptop, then move the model to <b>piBo or PiBrain</b> as a single file.</p>
+      <p><b>Train and test</b> on a laptop, then move the model to <b>piBo or piBrain</b> as a single file.</p>
       <ul>
         <li><b>Three kinds of AI</b> — object detection, segmentation, pose (keypoints)</li>
         <li><b>Train</b> — 100–300 photos in 10–15 minutes on a laptop CPU</li>
         <li><b>Run</b> — test on photos, videos or a webcam right away</li>
-        <li><b>On the robot</b> — one ONNX file runs on piBo and PiBrain</li>
+        <li><b>On the robot</b> — one ONNX file runs on piBo and piBrain</li>
       </ul>
       <p><a href="https://github.com/themakerrobot/easydetect-lab/releases/latest"><b>Download</b></a> · <a href="https://github.com/themakerrobot/easydetect-lab/releases">Release notes</a> · <a href="https://themakerrobot.github.io/easydetect-lab/">Guide</a> · <a href="https://themakerrobot.github.io/easydetect/try.html">Try on the web</a></p>
     </td>
@@ -259,13 +259,13 @@ Prepare lessons with an on-screen piBo, then run the whole classroom of robots f
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdU2oCmdhZ0bHcyK7MYdUHiultM6w9UE3cIt_KLppp-9Ug-ag/viewform"><img src="data/cta-en.png" width="100%" alt="Bring THE MAKER to your classroom — Request a demo"></a>
 
-### Getting started with piBo and PiBrain
+### Getting started with piBo and piBrain
 
 Features and blocks **differ by OS version**, so use the docs for the version on your device.
 
 1. Check your device's OS version. It looks like `260624v1`.
 2. Open the same version in **[Docs and examples by version](https://themakerrobot.github.io/openpibo-guide/)**.
-3. Run blocks or Python in **piBo Maker** or **PiBrain Maker** on the device.
+3. Run blocks or Python in **piBo Maker** or **piBrain Maker** on the device.
 
 OS images and setup guides are in the [shared folder](https://circulusworkspace-my.sharepoint.com/:f:/g/personal/leeyunjai_circul_us1/IgBLHRASCkOiSaZUlrbGnfglAbEknmT2sq_XVxMRmbLLUrM?e=o2QL8Z). Supported hardware: Raspberry Pi 4B
 
