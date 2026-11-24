@@ -62,7 +62,7 @@
   </tr>
 </table>
 
-## Edge Lab — 노트북 한 대로 하는 AI 수업
+## Edge Lab <sup>beta</sup> — 노트북 한 대로 하는 AI 수업
 
 <table>
   <tr>
@@ -80,7 +80,7 @@
   </tr>
 </table>
 
-## AI Lab — 웹 브라우저만으로 하는 AI 교육
+## AI Lab <sup>beta</sup> — 웹 브라우저만으로 하는 AI 교육
 
 <table>
   <tr>
@@ -98,7 +98,7 @@
   </tr>
 </table>
 
-## EasyDetect — 내 사진으로 만드는 사물 인식 AI
+## EasyDetect <sup>beta</sup> — 내 사진으로 만드는 사물 인식 AI
 
 <table>
   <tr>
@@ -193,7 +193,7 @@ Prepare lessons with an on-screen piBo, then run the whole classroom of robots f
   </tr>
 </table>
 
-### Edge Lab — an AI class on one laptop
+### Edge Lab <sup>beta</sup> — an AI class on one laptop
 
 <table>
   <tr>
@@ -211,7 +211,7 @@ Prepare lessons with an on-screen piBo, then run the whole classroom of robots f
   </tr>
 </table>
 
-### AI Lab — AI education in a web browser
+### AI Lab <sup>beta</sup> — AI education in a web browser
 
 <table>
   <tr>
@@ -229,7 +229,7 @@ Prepare lessons with an on-screen piBo, then run the whole classroom of robots f
   </tr>
 </table>
 
-### EasyDetect — object detection AI from your own photos
+### EasyDetect <sup>beta</sup> — object detection AI from your own photos
 
 <table>
   <tr>
