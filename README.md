@@ -41,20 +41,39 @@
 
 ## 파이보·파이브레인과 함께 쓰는 소프트웨어
 
-| 이름 | 하는 일 | 바로가기 |
-|---|---|---|
-| **Pibo Lab** | 기기 없이 온라인에서 파이보를 체험하고 활용합니다 | [바로 쓰기](https://pibo-lab.themaker.workers.dev/) |
-| **Pibo Connect** | 교실의 파이보·파이브레인 여러 대를 한 화면에서 찾고, 같은 코드를 한 번에 실행합니다. 로봇에는 아무것도 설치하지 않습니다 | [자세히 보기](https://github.com/themakerrobot/pibo-connect) |
+<table>
+  <tr>
+    <td width="50%" valign="top" align="center">
+      <img src="data/sw-pibolab.png" width="100%" alt="Pibo Lab — 3D 파이보로 미리 만들어 보는 로봇 수업"><br>
+      <a href="https://pibo-lab.themaker.workers.dev/"><b>바로 쓰기</b></a>
+    </td>
+    <td width="50%" valign="top" align="center">
+      <img src="data/sw-piboconnect.png" width="100%" alt="Pibo Connect — 교실 로봇 여러 대를 한 화면에서"><br>
+      <a href="https://github.com/themakerrobot/pibo-connect/releases/latest"><b>다운로드</b></a> · <a href="https://github.com/themakerrobot/pibo-connect/releases">릴리스 노트</a> · <a href="https://github.com/themakerrobot/pibo-connect#readme">가이드</a>
+    </td>
+  </tr>
+</table>
 
 ## AI 교육 소프트웨어
 
-로봇 없이 브라우저나 PC만으로 AI를 배웁니다.
+로봇이 없어도, 인터넷이 없어도 AI를 배웁니다. 찍은 사진과 소리는 기기 밖으로 나가지 않습니다.
 
-| 이름 | 하는 일 | 쓰는 곳 | 바로가기 |
-|---|---|---|---|
-| **AI Lab** | 보고, 가르치고, 블록과 파이썬으로 만들어 보는 AI 학습지 | 브라우저 (설치 없음) | [바로 쓰기](https://themakerrobot.github.io/ai-lab/) · [가이드](https://themakerrobot.github.io/ai-lab/guide/) |
-| **Edge Lab** | 사진을 찍어 AI에게 묻고, 직접 가르치고, 블록과 파이썬으로 AI를 부릅니다 | 내 PC (인터넷 없이) | [자세히 보기](https://github.com/themakerrobot/edge-lab) |
-| **EasyDetect** | 내 사진으로 물체 인식 모델을 만듭니다. 사진 올리기 → 상자 그리기 → 학습 → 시험 | 내 PC (인터넷 없이) | [가이드](https://themakerrobot.github.io/easydetect-lab/) |
+<table>
+  <tr>
+    <td width="33%" valign="top" align="center">
+      <img src="data/sw-ailab.png" width="100%" alt="AI Lab — 브라우저에서 바로 하는 AI 학습지"><br>
+      <a href="https://themakerrobot.github.io/ai-lab/"><b>바로 쓰기</b></a> · <a href="https://themakerrobot.github.io/ai-lab/guide/">가이드</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <img src="data/sw-edgelab.png" width="100%" alt="Edge Lab — 내 PC 안에서 돌아가는 AI 실습실"><br>
+      <a href="https://github.com/themakerrobot/edge-lab/releases/latest"><b>다운로드</b></a> · <a href="https://github.com/themakerrobot/edge-lab/releases">릴리스 노트</a> · <a href="https://github.com/themakerrobot/edge-lab/blob/main/docs/MANUAL.md">가이드</a>
+    </td>
+    <td width="33%" valign="top" align="center">
+      <img src="data/sw-easydetect.png" width="100%" alt="EasyDetect — 내 사진으로 만드는 물체 인식 AI"><br>
+      <a href="https://github.com/themakerrobot/easydetect-lab/releases/latest"><b>다운로드</b></a> · <a href="https://github.com/themakerrobot/easydetect-lab/releases">릴리스 노트</a> · <a href="https://themakerrobot.github.io/easydetect-lab/">가이드</a> · <a href="https://themakerrobot.github.io/easydetect/try.html">웹 체험</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
